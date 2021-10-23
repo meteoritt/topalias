@@ -1,0 +1,74 @@
+image: python:3.9-slim
+
+variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+#    key: one-key-to-rule-them-all
+    paths:
+        - .cache/pip
+        - venv/
+
+stages:
+    - build
+    - test
+    - artifact
+
+build:
+    stage: build
+    script:
+        - pip install -r requirements.txt
+        - pip install -r requirements-dev.txt
+        - python setup.py sdist bdist_wheel
+        - pip install dist/*.whl
+    artifacts:
+        paths:
+            - dist/*
+        expire_in: 1 week
+    tags:
+        - docker
+
+test:
+    stage: test
+    allow_failure: true
+    script:
+        - pip install -r requirements.txt
+        - pip install -r requirements-dev.txt
+        - python setup.py test
+    tags:
+        - docker
+
+publish_pypi:
+    stage: artifact
+    variables:
+        TWINE_USERNAME: $TWINE_USERNAME
+        TWINE_PASSWORD: $TWINE_PASSWORD
+    script:
+        - pip install -U twine
+        - echo "[distutils]" >> ~/.pypirc
+        - echo "index-servers =" >> ~/.pypirc
+        - echo "    pypi" >> ~/.pypirc
+        - echo "" >> ~/.pypirc
+        - echo "[pypi]" >> ~/.pypirc
+        - 'echo "repository: https://upload.pypi.org/legacy/" >> ~/.pypirc'
+        - 'echo "username: ${PYPI_USER}" >> ~/.pypirc'
+        - 'echo "password: ${PYPI_PASSWORD}" >> ~/.pypirc'
+        - python3 setup.py check
+        - twine upload --verbose dist/*
+    tags:
+        - docker
+    only:
+        - tags
+        - /^v.*$/
+#    when: manual
+
+publish_gitlab:
+    stage: artifact
+    script:
+        - pip install -U twine
+        - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+    tags:
+        - docker
+    only:
+        - tags
+        - /^v.*$/

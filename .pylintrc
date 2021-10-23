@@ -1,0 +1,8 @@
+[MASTER]
+init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.append(os.path.join(os.path.dirname(find_pylintrc()), 'topalias'))"
+
+[BASIC]
+good-names=i,j,x,y,k,s,f
+
+[FORMAT]
+max-line-length=120
