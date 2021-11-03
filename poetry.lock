@@ -553,16 +553,17 @@ python-versions = "*"
 
 [[package]]
 name = "isort"
-version = "5.8.0"
+version = "5.10.0"
 description = "A Python utility / library to sort Python imports."
 category = "dev"
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.6.1,<4.0"
 
 [package.extras]
 pipfile_deprecated_finder = ["pipreqs", "requirementslib"]
 requirements_deprecated_finder = ["pipreqs", "pip-api"]
 colors = ["colorama (>=0.4.3,<0.5.0)"]
+plugins = ["setuptools"]
 
 [[package]]
 name = "jinja2"
@@ -1351,7 +1352,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "1a8e7e4fb91b4058d8e3c6292b092fd50f7963fea646172c45bcfe4749ef4b6c"
+content-hash = "4642bd2469fa86ff186bb871e790fb89e91048bade096bea12b0c8e9702074c7"
 
 [metadata.files]
 alabaster = [
@@ -1602,8 +1603,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 isort = [
-    {file = "isort-5.8.0-py3-none-any.whl", hash = "sha256:2bb1680aad211e3c9944dbce1d4ba09a989f04e238296c87fe2139faa26d655d"},
-    {file = "isort-5.8.0.tar.gz", hash = "sha256:0a943902919f65c5684ac4e0154b1ad4fac6dcaa5d9f3426b732f1c8b5419be6"},
+    {file = "isort-5.10.0-py3-none-any.whl", hash = "sha256:1a18ccace2ed8910bd9458b74a3ecbafd7b2f581301b0ab65cfdd4338272d76f"},
+    {file = "isort-5.10.0.tar.gz", hash = "sha256:e52ff6d38012b131628cf0f26c51e7bd3a7c81592eefe3ac71411e692f1b9345"},
 ]
 jinja2 = [
     {file = "Jinja2-2.11.3-py2.py3-none-any.whl", hash = "sha256:03e47ad063331dd6a3f04a43eddca8a966a26ba0c5b7207a9a9e4e08f1b29419"},
