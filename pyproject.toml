@@ -43,7 +43,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Click = "^7.1"
+Click = "^8.0"
 setuptools = "^57.4.0"
 
 [tool.poetry.dev-dependencies]
