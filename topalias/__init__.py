@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 """Top-level package for topalias."""
 
-__author__ = "Sergey Chudakov"
-__email__ = "csredrat@gmail.com"
-__version__ = "2.0.25"
-
 import os
 import sys
 
+__author__ = "Sergey Chudakov"
+__email__ = "csredrat@gmail.com"
+__version__ = "2.0.25"
 
 sys.path.insert(
     0,

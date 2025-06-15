@@ -7,8 +7,7 @@ import sys
 import click
 
 import aliascore as core
-
-from __init__ import __version__
+from topalias import __version__
 
 
 class AliasedGroup(click.Group):

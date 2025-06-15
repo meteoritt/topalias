@@ -4,7 +4,6 @@
 import json
 
 import requests
-
 from packaging.version import parse as version_parse
 
 
