@@ -1,7 +1,7 @@
 [build-system]
 requires = [
     "poetry>=1.0",
-    "setuptools>=30.3.0",
+    "setuptools>=65.5.1",
     "wheel",
 ]
 build-backend = "poetry.masonry.api"
@@ -47,18 +47,18 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.14"
-Click = "^7.1"
-setuptools = "^57.4.0"
+Click = "^8.0.0"
+setuptools = "^65.5.1"
+typing-extensions = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
-setuptools = "^54.0.0"
 bump2version = "^1.0.1"
 
 wemake-python-styleguide = "^0.15"
 flake8-pytest-style = "^1.4"
 nitpick = "^0.25"
 
-safety = "^1.9"
+safety = "^3.5.2"
 
 pytest = "^6.1"
 pytest-cov = "^2.10"
@@ -75,10 +75,9 @@ tomlkit = "^0.7.0"
 flake8 = "^3.9.0"
 tox = "^3.23.0"
 pylint = "^2.7.2"
-black = "^20.8b1"
+black = "^23.12.1"
 pre-commit = "^2.11.1"
 isort = "^5.8"
-#isort = "<5"
 
 requests = "^2.25.1"
 html5lib = "^1.1"
