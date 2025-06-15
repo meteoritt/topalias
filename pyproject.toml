@@ -1,3 +1,11 @@
+[project]
+name = 'topalias'
+version = '2.0.26'
+description = 'Can be run in the console from anywhere.'
+
+[project.scripts]
+topalias = topalias.cli:cli'
+
 [build-system]
 requires = [
     "poetry>=1.0",
@@ -6,14 +14,13 @@ requires = [
 ]
 build-backend = "poetry.masonry.api"
 
-
 [tool.nitpick]
 style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
 
 
 [tool.poetry]
 name = "topalias"
-version = "2.0.23"
+version = "2.0.26"
 description = "Linux bash alias generator"
 license = "GPL-3.0-or-later"
 
