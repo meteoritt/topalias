@@ -34843,4 +34843,1214 @@ HTTP request sent, awaiting response... 404 Not Found
 
 --2025-06-15 14:38:20--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
 Reusing existing connection to camo.githubusercontent.com:443.
-HTTP request sent, awaiting response... 
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 63.0M=0s
+
+2025-06-15 14:38:41 (63.0 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:38:41--
+Total wall clock time: 24s
+Downloaded: 2 files, 715K in 1.0s (732 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 34.
+6-28
+Converted links in 1 files in 0.1 seconds.
+Request 18/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:38:43--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.31M
+    50K .......... .......... .......... .......... .......... 1.22M
+   100K .......... .......... .......... .......... .......... 1.13M
+   150K .......... .......... .......... .......... .......... 1.30M
+   200K .......... .......... .......... .......... .......... 1.35M
+   250K .......... .......... .......... .......... .......... 1.85M
+   300K .......... .......... .......... .......... .......... 1.31M
+   350K .......... .......... .......... .......... .......... 1.29M
+   400K .......... .......... .......... .......... .......... 2.11M
+   450K .......... .......... .......... .......... .......... 1.41M
+   500K .......... .......... .......... .......... .......... 1.57M
+   550K .......... .......... .......... .......... .......... 2.43M
+   600K .......... .......... .......... .......... .......... 1.52M
+   650K .......... .......... .......... .......... .......... 1.85M
+   700K .......... ...                                         1.68M=0.5s
+
+2025-06-15 14:38:43 (1.48 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:38:43--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:38:43 ERROR 404: Not Found.
+
+--2025-06-15 14:38:43--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 69.4M=0s
+
+2025-06-15 14:39:50 (69.4 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:39:50--
+Total wall clock time: 1m 8s
+Downloaded: 2 files, 715K in 0.5s (1.48 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 395.
+297-98
+Converted links in 1 files in 0.06 seconds.
+Request 19/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:39:52--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  540K
+    50K .......... .......... .......... .......... .......... 1.17M
+   100K .......... .......... .......... .......... .......... 2.46M
+   150K .......... .......... .......... .......... .......... 2.11M
+   200K .......... .......... .......... .......... .......... 2.57M
+   250K .......... .......... .......... .......... .......... 2.54M
+   300K .......... .......... .......... .......... .......... 2.36M
+   350K .......... .......... .......... .......... .......... 2.41M
+   400K .......... .......... .......... .......... .......... 2.45M
+   450K .......... .......... .......... .......... .......... 2.69M
+   500K .......... .......... .......... .......... .......... 2.61M
+   550K .......... .......... .......... .......... .......... 2.26M
+   600K .......... .......... .......... .......... .......... 2.41M
+   650K .......... .......... .......... .......... .......... 2.39M
+   700K .......... ...                                         2.39M=0.4s
+
+2025-06-15 14:39:53 (1.83 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:39:53--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:39:53 ERROR 404: Not Found.
+
+--2025-06-15 14:39:53--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 19.9M=0s
+
+2025-06-15 14:40:32 (19.9 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:40:32--
+Total wall clock time: 40s
+Downloaded: 2 files, 715K in 0.4s (1.83 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.2 seconds.
+Request 20/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:40:34--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  520K
+    50K .......... .......... .......... .......... .......... 1.21M
+   100K .......... .......... .......... .......... .......... 2.17M
+   150K .......... .......... .......... .......... .......... 2.58M
+   200K .......... .......... .......... .......... .......... 2.24M
+   250K .......... .......... .......... .......... .......... 2.79M
+   300K .......... .......... .......... .......... .......... 5.06M
+   350K .......... .......... .......... .......... .......... 3.14M
+   400K .......... .......... .......... .......... .......... 2.34M
+   450K .......... .......... .......... .......... .......... 2.62M
+   500K .......... .......... .......... .......... .......... 2.45M
+   550K .......... .......... .......... .......... .......... 2.30M
+   600K .......... .......... .......... .......... .......... 2.95M
+   650K .......... .......... .......... .......... .......... 2.90M
+   700K .......... ...                                         2.76M=0.4s
+
+2025-06-15 14:40:35 (1.93 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:40:35--
+Total wall clock time: 0.6s
+Downloaded: 1 files, 714K in 0.4s (1.93 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 11.
+0-11
+Converted links in 1 files in 0.01 seconds.
+Request 21/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:40:36--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.59M
+    50K .......... .......... .......... .......... ..........  938K
+   100K .......... .......... .......... .......... .......... 1.74M
+   150K .......... .......... .......... .......... .......... 1.78M
+   200K .......... .......... .......... .......... .......... 2.23M
+   250K .......... .......... .......... .......... .......... 2.55M
+   300K .......... .......... .......... .......... .......... 2.34M
+   350K .......... .......... .......... .......... .......... 3.19M
+   400K .......... .......... .......... .......... .......... 2.61M
+   450K .......... .......... .......... .......... .......... 5.44M
+   500K .......... .......... .......... .......... .......... 1.93M
+   550K .......... .......... .......... .......... .......... 3.13M
+   600K .......... .......... .......... .......... .......... 5.53M
+   650K .......... .......... .......... .......... .......... 5.22M
+   700K .......... ...                                          786K=0.3s
+
+2025-06-15 14:40:37 (2.17 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+FINISHED --2025-06-15 14:40:37--
+Total wall clock time: 0.6s
+Downloaded: 1 files, 714K in 0.3s (2.17 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 6.
+0-6
+Converted links in 1 files in 0.01 seconds.
+Request 22/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:40:39--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  240K
+    50K .......... .......... .......... .......... ..........  251K
+   100K .......... .......... .......... .......... ..........  320K
+   150K .......... .......... .......... .......... ..........  334K
+   200K .......... .......... .......... .......... ..........  312K
+   250K .......... .......... .......... .......... ..........  469K
+   300K .......... .......... .......... .......... ..........  476K
+   350K .......... .......... .......... .......... ..........  477K
+   400K .......... .......... .......... .......... ..........  479K
+   450K .......... .......... .......... .......... ..........  403K
+   500K .......... .......... .......... .......... ..........  560K
+   550K .......... .......... .......... .......... ..........  515K
+   600K .......... .......... .......... .......... ..........  663K
+   650K .......... .......... .......... .......... ..........  577K
+   700K .......... ...                                          388K=1.8s
+
+2025-06-15 14:40:41 (396 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+/home/chudakov/git/gentleman_top/gentleman_top.sh: line 2: 23587 Bus error               (core dumped) wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/146.42" --recursive --level 2 --no-clobber --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains github.com.com,camo.githubusercontent.com --no-parent https://github.com/meteoritt/gentleman
+Request 23/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:40:43--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  342K
+    50K .......... .......... .......... .......... ..........  948K
+   100K .......... .......... .......... .......... .......... 1.26M
+   150K .......... .......... .......... .......... ..........  843K
+   200K .......... .......... .......... .......... ..........  976K
+   250K .......... .......... .......... .......... .......... 1014K
+   300K .......... .......... .......... .......... ..........  991K
+   350K .......... .......... .......... .......... .......... 2.06M
+   400K .......... .......... .......... .......... ..........  991K
+   450K .......... .......... .......... .......... ..........  971K
+   500K .......... .......... .......... .......... .......... 1.05M
+   550K .......... .......... .......... .......... ..........  988K
+   600K .......... .......... .......... .......... .......... 1.03M
+   650K .......... .......... .......... .......... .......... 1.04M
+   700K .......... ...                                         2.21M=0.8s
+
+2025-06-15 14:40:44 (925 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:40:44--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:40:44 ERROR 404: Not Found.
+
+--2025-06-15 14:40:44--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 61.4M=0s
+
+2025-06-15 14:41:24 (61.4 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:41:24--
+Total wall clock time: 41s
+Downloaded: 2 files, 715K in 0.8s (927 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 240.
+161-79
+Converted links in 1 files in 0.8 seconds.
+Request 24/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:26--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  954K
+    50K .......... .......... .......... .......... ..........  659K
+   100K .......... .......... .......... .......... ..........  171K
+   150K .......... .......... .......... .......... .......... 1.24M
+   200K .......... .......... .......... .......... ..........  747K
+   250K .......... .......... .......... .......... ..........  248K
+   300K .......... .......... .......... .......... ..........  253K
+   350K .......... .......... .......... .......... ..........  687K
+   400K .......... .......... .......... .......... ..........  544K
+   450K .......... .......... .......... .......... ..........  703K
+   500K .......... .......... .......... .......... ..........  495K
+   550K .......... .......... .......... .......... ..........  801K
+   600K .......... .......... .......... .......... ..........  481K
+   650K .......... .......... .......... .......... ..........  668K
+   700K .......... ...                                          370K=1.5s
+
+2025-06-15 14:41:28 (463 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:41:28--
+Total wall clock time: 2.2s
+Downloaded: 1 files, 714K in 1.5s (463 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 393.
+11-51
+Converted links in 1 files in 0.7 seconds.
+Request 25/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:31--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.06M
+    50K .......... .......... .......... .......... ..........  708K
+   100K .......... .......... .......... .......... ..........  436K
+   150K .......... .......... .......... .......... ..........  915K
+   200K .......... .......... .......... .......... ..........  311K
+   250K .......... .......... .......... .......... .......... 1.79M
+   300K .......... .......... .......... .......... ..........  708K
+   350K .......... .......... .......... .......... ..........  949K
+   400K .......... .......... .......... .......... ..........  905K
+   450K .......... .......... .......... .......... ..........  976K
+   500K .......... .......... .......... .......... ..........  754K
+   550K .......... .......... .......... .......... ..........  814K
+   600K .......... .......... .......... .......... ..........  790K
+   650K .......... .......... .......... .......... ..........  948K
+   700K .......... ...                                         1.61M=1.0s
+
+2025-06-15 14:41:33 (747 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:41:33--
+Total wall clock time: 2.0s
+Downloaded: 1 files, 714K in 1.0s (747 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.009 seconds.
+Request 26/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:34--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.33M
+    50K .......... .......... .......... .......... .......... 1.53M
+   100K .......... .......... .......... .......... .......... 1.17M
+   150K .......... .......... .......... .......... .......... 1.79M
+   200K .......... .......... .......... .......... .......... 1.90M
+   250K .......... .......... .......... .......... .......... 2.23M
+   300K .......... .......... .......... .......... .......... 1.95M
+   350K .......... .......... .......... .......... .......... 1.93M
+   400K .......... .......... .......... .......... .......... 1.98M
+   450K .......... .......... .......... .......... .......... 2.37M
+   500K .......... .......... .......... .......... .......... 2.11M
+   550K .......... .......... .......... .......... .......... 2.05M
+   600K .......... .......... .......... .......... .......... 2.33M
+   650K .......... .......... .......... .......... .......... 2.44M
+   700K .......... ...                                         2.63M=0.4s
+
+2025-06-15 14:41:36 (1.86 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+FINISHED --2025-06-15 14:41:36--
+Total wall clock time: 1.6s
+Downloaded: 1 files, 714K in 0.4s (1.86 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.001 seconds.
+Request 27/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:38--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  764K
+    50K .......... .......... .......... .......... .......... 1.00M
+   100K .......... .......... .......... .......... .......... 2.13M
+   150K .......... .......... .......... .......... ..........  464K
+   200K .......... .......... .......... .......... .......... 2.44M
+   250K .......... .......... .......... .......... .......... 2.59M
+   300K .......... .......... .......... .......... .......... 2.25M
+   350K .......... .......... .......... .......... ..........  418K
+   400K .......... .......... .......... .......... .......... 1.72M
+   450K .......... .......... .......... .......... .......... 1.48M
+   500K .......... .......... .......... .......... ..........  893K
+   550K .......... .......... .......... .......... ..........  937K
+   600K .......... .......... .......... .......... ..........  935K
+   650K .......... .......... .......... .......... ..........  890K
+   700K .......... ...                                         2.26M=0.7s
+
+2025-06-15 14:41:39 (1003 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:41:39--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:41:39 ERROR 404: Not Found.
+
+--2025-06-15 14:41:39--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 55.8M=0s
+
+2025-06-15 14:41:42 (55.8 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:41:42--
+Total wall clock time: 4.8s
+Downloaded: 2 files, 715K in 0.7s (1005 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 27.
+3-24
+Converted links in 1 files in 0.07 seconds.
+Request 28/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:44--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  519K
+    50K .......... .......... .......... .......... .......... 1.08M
+   100K .......... .......... .......... .......... .......... 2.18M
+   150K .......... .......... .......... .......... ..........  733K
+   200K .......... .......... .......... .......... ..........  902K
+   250K .......... .......... .......... .......... ..........  574K
+   300K .......... .......... .......... .......... .......... 2.08M
+   350K .......... .......... .......... .......... .......... 2.51M
+   400K .......... .......... .......... .......... .......... 2.32M
+   450K .......... .......... .......... .......... .......... 2.63M
+   500K .......... .......... .......... .......... .......... 2.68M
+   550K .......... .......... .......... .......... .......... 2.30M
+   600K .......... .......... .......... .......... .......... 2.11M
+   650K .......... .......... .......... .......... .......... 2.44M
+   700K .......... ...                                         2.33M=0.5s
+
+2025-06-15 14:41:45 (1.28 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:41:45--
+Total wall clock time: 0.8s
+Downloaded: 1 files, 714K in 0.5s (1.28 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.001 seconds.
+Request 29/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:46--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 2.21M
+    50K .......... .......... .......... .......... .......... 1.16M
+   100K .......... .......... .......... .......... .......... 1.18M
+   150K .......... .......... .......... .......... .......... 2.34M
+   200K .......... .......... .......... .......... ..........  747K
+   250K .......... .......... .......... .......... .......... 2.45M
+   300K .......... .......... .......... .......... .......... 2.48M
+   350K .......... .......... .......... .......... .......... 2.63M
+   400K .......... .......... .......... .......... .......... 2.51M
+   450K .......... .......... .......... .......... .......... 2.98M
+   500K .......... .......... .......... .......... .......... 2.93M
+   550K .......... .......... .......... .......... .......... 2.93M
+   600K .......... .......... .......... .......... .......... 2.76M
+   650K .......... .......... .......... .......... .......... 2.88M
+   700K .......... ...                                         2.63M=0.4s
+
+2025-06-15 14:41:47 (1.93 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:41:47--
+Total wall clock time: 0.8s
+Downloaded: 1 files, 714K in 0.4s (1.93 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 30/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:49--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  618K
+    50K .......... .......... .......... .......... .......... 1.25M
+   100K .......... .......... .......... .......... .......... 1.68M
+   150K .......... .......... .......... .......... .......... 2.48M
+   200K .......... .......... .......... .......... .......... 1.83M
+   250K .......... .......... .......... .......... .......... 2.24M
+   300K .......... .......... .......... .......... .......... 2.29M
+   350K .......... .......... .......... .......... .......... 2.56M
+   400K .......... .......... .......... .......... .......... 2.28M
+   450K .......... .......... .......... .......... .......... 2.16M
+   500K .......... .......... .......... .......... .......... 2.28M
+   550K .......... .......... .......... .......... .......... 2.29M
+   600K .......... .......... .......... .......... .......... 2.47M
+   650K .......... .......... .......... .......... .......... 2.66M
+   700K .......... ...                                         2.68M=0.4s
+
+2025-06-15 14:41:50 (1.80 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730944]
+
+FINISHED --2025-06-15 14:41:50--
+Total wall clock time: 0.6s
+Downloaded: 1 files, 714K in 0.4s (1.80 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 38.
+8-30
+Converted links in 1 files in 0.01 seconds.
+Request 31/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:51--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  512K
+    50K .......... .......... .......... .......... .......... 1.12M
+   100K .......... .......... .......... .......... .......... 2.04M
+   150K .......... .......... .......... .......... .......... 2.34M
+   200K .......... .......... .......... .......... .......... 1.92M
+   250K .......... .......... .......... .......... .......... 2.36M
+   300K .......... .......... .......... .......... .......... 3.49M
+   350K .......... .......... .......... .......... .......... 5.35M
+   400K .......... .......... .......... .......... .......... 4.90M
+   450K .......... .......... .......... .......... .......... 6.25M
+   500K .......... .......... .......... .......... .......... 7.21M
+   550K .......... .......... .......... .......... .......... 6.64M
+   600K .......... .......... .......... .......... ..........  138K
+   650K .......... .......... .......... .......... ..........  972K
+   700K .......... ...                                         6.98M=0.7s
+
+2025-06-15 14:41:52 (1015 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730965]
+
+FINISHED --2025-06-15 14:41:52--
+Total wall clock time: 0.9s
+Downloaded: 1 files, 714K in 0.7s (1015 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 10.
+1-9
+Converted links in 1 files in 0.009 seconds.
+Request 32/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:54--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+github.com/meteoritt/gentleman.html: No such file or directory
+
+Cannot write to ‘github.com/meteoritt/gentleman.html’ (Success).
+Converted links in 0 files in 0 seconds.
+Request 33/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:56--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  536K
+    50K .......... .......... .......... .......... .......... 1.08M
+   100K .......... .......... .......... .......... .......... 2.43M
+   150K .......... .......... .......... .......... .......... 2.39M
+   200K .......... .......... .......... .......... .......... 2.41M
+   250K .......... .......... .......... .......... .......... 2.62M
+   300K .......... .......... .......... .......... ..........  812K
+   350K .......... .......... .......... .......... .......... 2.95M
+   400K .......... .......... .......... .......... .......... 2.92M
+   450K .......... .......... .......... .......... .......... 3.00M
+   500K .......... .......... .......... .......... .......... 2.70M
+   550K .......... .......... .......... .......... .......... 2.94M
+   600K .......... .......... .......... .......... .......... 2.72M
+   650K .......... .......... .......... .......... .......... 3.07M
+   700K .......... ...                                         2.93M=0.4s
+
+2025-06-15 14:41:56 (1.73 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730965]
+
+FINISHED --2025-06-15 14:41:56--
+Total wall clock time: 0.6s
+Downloaded: 1 files, 714K in 0.4s (1.73 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 6.
+2-4
+Converted links in 1 files in 0.03 seconds.
+Request 34/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:41:58--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  566K
+    50K .......... .......... .......... .......... ..........  946K
+   100K .......... .......... .......... .......... ..........  269K
+   150K .......... .......... .......... .......... .......... 2.40M
+   200K .......... .......... .......... .......... .......... 2.39M
+   250K .......... .......... .......... .......... .......... 2.40M
+   300K .......... .......... .......... .......... .......... 1.38M
+   350K .......... .......... .......... .......... .......... 1.47M
+   400K .......... .......... .......... .......... .......... 2.39M
+   450K .......... .......... .......... .......... .......... 1.40M
+   500K .......... .......... .......... .......... .......... 1.75M
+   550K .......... .......... .......... .......... .......... 1.89M
+   600K .......... .......... .......... .......... .......... 1.57M
+   650K .......... .......... .......... .......... .......... 1.57M
+   700K .......... ...                                         2.64M=0.6s
+
+2025-06-15 14:41:59 (1.10 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730964]
+
+FINISHED --2025-06-15 14:41:59--
+Total wall clock time: 0.8s
+Downloaded: 1 files, 714K in 0.6s (1.10 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 35/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:00--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.26M
+    50K .......... .......... .......... .......... ..........  799K
+   100K .......... .......... .......... .......... ..........  460K
+   150K .......... .......... .......... .......... .......... 2.31M
+   200K .......... .......... .......... .......... .......... 2.87M
+   250K .......... .......... .......... .......... .......... 2.29M
+   300K .......... .......... .......... .......... .......... 2.29M
+   350K .......... .......... .......... .......... .......... 2.25M
+   400K .......... .......... .......... .......... .......... 2.26M
+   450K .......... .......... .......... .......... .......... 2.23M
+   500K .......... .......... .......... .......... .......... 2.42M
+   550K .......... .......... .......... .......... .......... 2.06M
+   600K .......... .......... .......... .......... .......... 2.47M
+   650K .......... .......... .......... .......... .......... 2.20M
+   700K .......... ...                                          538K=0.5s
+
+2025-06-15 14:42:02 (1.49 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+FINISHED --2025-06-15 14:42:02--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 714K in 0.5s (1.49 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 36/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:03--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  337K
+    50K .......... .......... .......... .......... ..........  498K
+   100K .......... .......... .......... .......... .......... 2.08M
+   150K .......... .......... .......... .......... ..........  543K
+   200K .......... .......... .......... .......... .......... 1.85M
+   250K .......... .......... .......... .......... .......... 1.11M
+   300K .......... .......... .......... .......... ..........  663K
+   350K .......... .......... .......... .......... ..........  580K
+   400K .......... .......... .......... .......... ..........  770K
+   450K .......... .......... .......... .......... ..........  698K
+   500K .......... .......... .......... .......... ..........  909K
+   550K .......... .......... .......... .......... ..........  688K
+   600K .......... .......... .......... .......... ..........  641K
+   650K .......... .......... .......... .......... ..........  529K
+   700K .......... ...                                         6.10M=1.0s
+
+2025-06-15 14:42:05 (690 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+/home/chudakov/git/gentleman_top/gentleman_top.sh: line 2: 24110 Bus error               (core dumped) wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/146.42" --recursive --level 2 --no-clobber --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains github.com.com,camo.githubusercontent.com --no-parent https://github.com/meteoritt/gentleman
+Request 37/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:07--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.17M
+    50K .......... .......... .......... .......... .......... 1.03M
+   100K .......... .......... .......... .......... .......... 1.23M
+   150K .......... .......... .......... .......... ..........  294K
+   200K .......... .......... .......... .......... .......... 1.08M
+   250K .......... .......... .......... .......... ..........  517K
+   300K .......... .......... .......... .......... .......... 1.95M
+   350K .......... .......... .......... .......... .......... 1.66M
+   400K .......... .......... .......... .......... .......... 1.33M
+   450K .......... .......... .......... .......... ..........  547K
+   500K .......... .......... .......... .......... .......... 1.28M
+   550K .......... .......... .......... .......... ..........  858K
+   600K .......... .......... .......... .......... ..........  443K
+   650K .......... .......... .......... .......... ..........  428K
+   700K .......... ...                                         1.15M=1.0s
+
+2025-06-15 14:42:08 (743 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:42:08--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:42:08 ERROR 404: Not Found.
+
+--2025-06-15 14:42:08--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 23.1M=0s
+
+2025-06-15 14:42:25 (23.1 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:42:25--
+Total wall clock time: 19s
+Downloaded: 2 files, 715K in 1.0s (744 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.5 seconds.
+Request 38/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:27--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  517K
+    50K .......... .......... .......... .......... .......... 1.34M
+   100K .......... .......... .......... .......... ..........  944K
+   150K .......... .......... .......... .......... .......... 1.14M
+   200K .......... .......... .......... .......... .......... 1.24M
+   250K .......... .......... .......... .......... ..........  865K
+   300K .......... .......... .......... .......... ..........  943K
+   350K .......... .......... .......... .......... .......... 1.17M
+   400K .......... .......... .......... .......... .......... 1.10M
+   450K .......... .......... .......... .......... .......... 1.57M
+   500K .......... .......... .......... .......... .......... 1.41M
+   550K .......... .......... .......... .......... .......... 1.19M
+   600K .......... .......... .......... .......... .......... 1.48M
+   650K .......... .......... .......... .......... .......... 1.19M
+   700K .......... ...                                         1.32M=0.7s
+
+2025-06-15 14:42:28 (1.06 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+/home/chudakov/git/gentleman_top/gentleman_top.sh: line 2: 24224 Bus error               (core dumped) wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/146.42" --recursive --level 2 --no-clobber --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains github.com.com,camo.githubusercontent.com --no-parent https://github.com/meteoritt/gentleman
+Request 39/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:30--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.01M
+    50K .......... .......... .......... .......... ..........  904K
+   100K .......... .......... .......... .......... ..........  248K
+   150K .......... .......... .......... .......... .......... 1.91M
+   200K .......... .......... .......... .......... .......... 2.23M
+   250K .......... .......... .......... .......... .......... 1.47M
+   300K .......... .......... .......... .......... .......... 2.34M
+   350K .......... .......... .......... .......... .......... 1.19M
+   400K .......... .......... .......... .......... .......... 2.90M
+   450K .......... .......... .......... .......... .......... 1024K
+   500K .......... .......... .......... .......... .......... 2.51M
+   550K .......... .......... .......... .......... .......... 1.56M
+   600K .......... .......... .......... .......... .......... 1.51M
+   650K .......... .......... .......... .......... .......... 2.55M
+   700K .......... ...                                         2.69M=0.6s
+
+2025-06-15 14:42:31 (1.12 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:42:31--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:42:31 ERROR 404: Not Found.
+
+--2025-06-15 14:42:31--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 11.8M=0s
+
+2025-06-15 14:42:56 (11.8 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:42:56--
+Total wall clock time: 26s
+Downloaded: 2 files, 715K in 0.6s (1.12 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.4 seconds.
+Request 40/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:42:58--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.18M
+    50K .......... .......... .......... .......... .......... 1.16M
+   100K .......... .......... .......... .......... .......... 1.27M
+   150K .......... .......... .......... .......... .......... 2.23M
+   200K .......... .......... .......... .......... .......... 2.09M
+   250K .......... .......... .......... .......... ..........  458K
+   300K .......... .......... .......... .......... .......... 1.59M
+   350K .......... .......... .......... .......... .......... 1.28M
+   400K .......... .......... .......... .......... .......... 1.26M
+   450K .......... .......... .......... .......... .......... 1.00M
+   500K .......... .......... .......... .......... .......... 1.37M
+   550K .......... .......... .......... .......... .......... 1.27M
+   600K .......... .......... .......... .......... ..........  854K
+   650K .......... .......... .......... .......... ..........  938K
+   700K .......... ...                                         1021K=0.6s
+
+2025-06-15 14:43:00 (1.10 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+FINISHED --2025-06-15 14:43:00--
+Total wall clock time: 1.5s
+Downloaded: 1 files, 714K in 0.6s (1.10 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 393.
+295-98
+Converted links in 1 files in 1.0 seconds.
+Request 41/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:02--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  584K
+    50K .......... .......... .......... .......... .......... 1.22M
+   100K .......... .......... .......... .......... .......... 2.88M
+   150K .......... .......... .......... .......... .......... 2.78M
+   200K .......... .......... .......... .......... .......... 2.12M
+   250K .......... .......... .......... .......... .......... 2.51M
+   300K .......... .......... .......... .......... .......... 1.14M
+   350K .......... .......... .......... .......... .......... 2.06M
+   400K .......... .......... .......... .......... .......... 5.98M
+   450K .......... .......... .......... .......... .......... 6.68M
+   500K .......... .......... .......... .......... .......... 7.72M
+   550K .......... .......... .......... .......... .......... 6.54M
+   600K .......... .......... .......... .......... .......... 6.61M
+   650K .......... .......... .......... .......... .......... 5.03M
+   700K .......... ...                                         7.36M=0.3s
+
+2025-06-15 14:43:03 (2.20 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:43:03--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:43:03 ERROR 404: Not Found.
+
+--2025-06-15 14:43:03--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 14.2M=0s
+
+2025-06-15 14:43:07 (14.2 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:43:07--
+Total wall clock time: 4.4s
+Downloaded: 2 files, 715K in 0.3s (2.20 MB/s)
+/home/chudakov/git/gentleman_top/gentleman_top.sh: line 2: 24353 Bus error               (core dumped) wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/146.42" --recursive --level 2 --no-clobber --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains github.com.com,camo.githubusercontent.com --no-parent https://github.com/meteoritt/gentleman
+Request 42/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:09--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+github.com/meteoritt/gentleman.html: No such file or directory
+
+Cannot write to ‘github.com/meteoritt/gentleman.html’ (Success).
+Converted links in 0 files in 0 seconds.
+Request 43/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:11--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  955K
+    50K .......... .......... .......... .......... .......... 1.10M
+   100K .......... .......... .......... .......... ..........  172K
+   150K .......... .......... .......... .......... .......... 1.25M
+   200K .......... .......... .......... .......... ..........  672K
+   250K .......... .......... .......... .......... ..........  318K
+   300K .......... .......... .......... .......... .......... 1.33M
+   350K .......... .......... .......... .......... .......... 1.65M
+   400K .......... .......... .......... .......... .......... 2.35M
+   450K .......... .......... .......... .......... ..........  882K
+   500K .......... .......... .......... .......... ..........  994K
+   550K .......... .......... .......... .......... .......... 1.53M
+   600K .......... .......... .......... .......... ..........  936K
+   650K .......... .......... .......... .......... .......... 1.36M
+   700K .......... ...                                         1.25M=1.0s
+
+2025-06-15 14:43:13 (725 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:43:13--
+Total wall clock time: 1.5s
+Downloaded: 1 files, 714K in 1.0s (725 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 44/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:14--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1014K
+    50K .......... .......... .......... .......... .......... 1.11M
+   100K .......... .......... .......... .......... ..........  128K
+   150K .......... .......... .......... .......... ..........  628K
+   200K .......... .......... .......... .......... ..........  896K
+   250K .......... .......... .......... .......... .......... 1.19M
+   300K .......... .......... .......... .......... .......... 1.51M
+   350K .......... .......... .......... .......... .......... 1.17M
+   400K .......... .......... .......... .......... .......... 1.34M
+   450K .......... .......... .......... .......... .......... 1.34M
+   500K .......... .......... .......... .......... .......... 1.27M
+   550K .......... .......... .......... .......... .......... 1.43M
+   600K .......... .......... .......... .......... .......... 1.26M
+   650K .......... .......... .......... .......... .......... 1.73M
+   700K .......... ...                                         1.38M=1.0s
+
+2025-06-15 14:43:16 (746 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+/home/chudakov/git/gentleman_top/gentleman_top.sh: line 2: 24424 Bus error               (core dumped) wget --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/146.42" --recursive --level 2 --no-clobber --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains github.com.com,camo.githubusercontent.com --no-parent https://github.com/meteoritt/gentleman
+Request 45/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:18--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.68M
+    50K .......... .......... .......... .......... ..........  855K
+   100K .......... .......... .......... .......... ..........  898K
+   150K .......... .......... .......... .......... .......... 1.89M
+   200K .......... .......... .......... .......... .......... 2.05M
+   250K .......... .......... .......... .......... .......... 1.70M
+   300K .......... .......... .......... .......... ..........  742K
+   350K .......... .......... .......... .......... ..........  310K
+   400K .......... .......... .......... .......... .......... 1.73M
+   450K .......... .......... .......... .......... .......... 1.73M
+   500K .......... .......... .......... .......... .......... 1.60M
+   550K .......... .......... .......... .......... .......... 1.13M
+   600K .......... .......... .......... .......... .......... 2.17M
+   650K .......... .......... .......... .......... .......... 2.48M
+   700K .......... ...                                         2.13M=0.6s
+
+2025-06-15 14:43:19 (1.11 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:43:19--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:43:19 ERROR 404: Not Found.
+
+--2025-06-15 14:43:19--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 16.6M=0s
+
+2025-06-15 14:43:33 (16.6 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:43:33--
+Total wall clock time: 16s
+Downloaded: 2 files, 715K in 0.6s (1.11 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 34.
+3-31
+Converted links in 1 files in 0.7 seconds.
+Request 46/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:35--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  478K
+    50K .......... .......... .......... .......... .......... 1.44M
+   100K .......... .......... .......... .......... ..........  942K
+   150K .......... .......... .......... .......... .......... 1.43M
+   200K .......... .......... .......... .......... .......... 1.56M
+   250K .......... .......... .......... .......... .......... 1.78M
+   300K .......... .......... .......... .......... .......... 1.29M
+   350K .......... .......... .......... .......... .......... 1.16M
+   400K .......... .......... .......... .......... .......... 1.32M
+   450K .......... .......... .......... .......... .......... 1.96M
+   500K .......... .......... .......... .......... .......... 2.21M
+   550K .......... .......... .......... .......... .......... 2.10M
+   600K .......... .......... .......... .......... .......... 2.02M
+   650K .......... .......... .......... .......... .......... 2.57M
+   700K .......... ...                                         2.25M=0.5s
+
+2025-06-15 14:43:36 (1.34 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+Loading robots.txt; please ignore errors.
+--2025-06-15 14:43:36--  https://camo.githubusercontent.com/robots.txt
+Resolving camo.githubusercontent.com (camo.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to camo.githubusercontent.com (camo.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-15 14:43:36 ERROR 404: Not Found.
+
+--2025-06-15 14:43:36--  https://camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e
+Reusing existing connection to camo.githubusercontent.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1338 (1.3K) [image/svg+xml]
+Saving to: ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’
+
+     0K .                                                     100% 72.3M=0s
+
+2025-06-15 14:43:43 (72.3 MB/s) - ‘camo.githubusercontent.com/373c6045aaa7962f037c3c43fda4f71739fb24a892c7817396a484c8cbe8a132/68747470733a2f2f76697369746f722d62616467652e6c616f62692e6963752f62616467653f706167655f69643d43535265645261742e67656e746c656d616e’ saved [1338/1338]
+
+FINISHED --2025-06-15 14:43:43--
+Total wall clock time: 8.1s
+Downloaded: 2 files, 715K in 0.5s (1.34 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... 394.
+296-98
+Converted links in 1 files in 0.4 seconds.
+Request 47/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:46--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  410K
+    50K .......... .......... .......... .......... .......... 1.31M
+   100K .......... .......... .......... .......... .......... 1.42M
+   150K .......... .......... .......... .......... ..........  241K
+   200K .......... .......... .......... .......... .......... 2.58M
+   250K .......... .......... .......... .......... .......... 2.65M
+   300K .......... .......... .......... .......... .......... 1.29M
+   350K .......... .......... .......... .......... .......... 1.41M
+   400K .......... .......... .......... .......... ..........  108K
+   450K .......... .......... .......... .......... ..........  348K
+   500K .......... .......... .......... .......... .......... 1.38M
+   550K .......... .......... .......... .......... ..........  421K
+   600K .......... .......... .......... .......... ..........  735K
+   650K .......... .......... .......... .......... ..........  391K
+   700K .......... ...                                         1.38M=1.5s
+
+2025-06-15 14:43:47 (483 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:43:48--
+Total wall clock time: 2.1s
+Downloaded: 1 files, 714K in 1.5s (483 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 163.
+67-96
+Converted links in 1 files in 0.07 seconds.
+Request 48/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:49--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  415K
+    50K .......... .......... .......... .......... ..........  300K
+   100K .......... .......... .......... .......... ..........  280K
+   150K .......... .......... .......... .......... ..........  375K
+   200K .......... .......... .......... .......... ..........  314K
+   250K .......... .......... .......... .......... ..........  466K
+   300K .......... .......... .......... .......... ..........  401K
+   350K .......... .......... .......... .......... ..........  549K
+   400K .......... .......... .......... .......... ..........  484K
+   450K .......... .......... .......... .......... ..........  465K
+   500K .......... .......... .......... .......... ..........  451K
+   550K .......... .......... .......... .......... ..........  485K
+   600K .......... .......... .......... .......... ..........  866K
+   650K .......... .......... .......... .......... ..........  574K
+   700K .......... ...                                         2.41M=1.7s
+
+2025-06-15 14:43:51 (431 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+FINISHED --2025-06-15 14:43:51--
+Total wall clock time: 2.0s
+Downloaded: 1 files, 714K in 1.7s (431 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 49/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:53--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  375K
+    50K .......... .......... .......... .......... ..........  834K
+   100K .......... .......... .......... .......... ..........  539K
+   150K .......... .......... .......... .......... .......... 2.52M
+   200K .......... .......... .......... .......... ..........  578K
+   250K .......... .......... .......... .......... ..........  987K
+   300K .......... .......... .......... .......... ..........  809K
+   350K .......... .......... .......... .......... ..........  790K
+   400K .......... .......... .......... .......... ..........  730K
+   450K .......... .......... .......... .......... .......... 1.08M
+   500K .......... .......... .......... .......... ..........  711K
+   550K .......... .......... .......... .......... .......... 1.05M
+   600K .......... .......... .......... .......... ..........  664K
+   650K .......... .......... .......... .......... ..........  884K
+   700K .......... ...                                         1.90M=0.9s
+
+2025-06-15 14:43:54 (762 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730938]
+
+FINISHED --2025-06-15 14:43:54--
+Total wall clock time: 1.3s
+Downloaded: 1 files, 714K in 0.9s (762 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 356.
+272-84
+Converted links in 1 files in 0.4 seconds.
+Request 50/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:56--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... ..........  513K
+    50K .......... .......... .......... .......... ..........  870K
+   100K .......... .......... .......... .......... ..........  818K
+   150K .......... .......... .......... .......... .......... 1.50M
+   200K .......... .......... .......... .......... .......... 1.16M
+   250K .......... .......... .......... .......... .......... 1.68M
+   300K .......... .......... .......... .......... ..........  797K
+   350K .......... .......... .......... .......... .......... 1.83M
+   400K .......... .......... .......... .......... .......... 2.54M
+   450K .......... .......... .......... .......... .......... 2.98M
+   500K .......... .......... .......... .......... .......... 3.16M
+   550K .......... .......... .......... .......... .......... 2.55M
+   600K .......... .......... .......... .......... .......... 2.91M
+   650K .......... .......... .......... .......... .......... 3.00M
+   700K .......... ...                                         2.57M=0.5s
+
+2025-06-15 14:43:57 (1.35 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730939]
+
+FINISHED --2025-06-15 14:43:57--
+Total wall clock time: 0.8s
+Downloaded: 1 files, 714K in 0.5s (1.35 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.001 seconds.
+Request 51/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-06-15 14:43:59--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 1.77M
+    50K .......... .......... .......... .......... ..........  768K
+   100K .......... .......... .......... .......... .......... 1.77M
+   150K .......... .......... .......... .......... ..........  972K
+   200K .......... .......... .......... .......... .......... 2.34M
+   250K .......... .......... .......... .......... .......... 1.04M
+   300K .......... .......... .......... .......... .......... 1.81M
+   350K .......... .......... .......... .......... .......... 1.22M
+   400K .......... .......... .......... .......... ..........  401K
+   450K .......... .......... .......... .......... .......... 1.54M
+   500K .......... .......... .......... .......... .......... 6.86M
+   550K .......... .......... .......... .......... .......... 2.73M
+   600K .......... .......... .......... .......... .......... 1.88M
+   650K .......... .......... .......... .......... .......... 5.22M
+   700K .......... ...                                          653K=0.5s
+
+2025-06-15 14:44:00 (1.28 MB/s) - ‘github.com/meteoritt/gentleman.html’ saved [730937]
+
+FINISHED --2025-06-15 14:44:00--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 714K in 0.5s (1.28 MB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0.002 seconds.
+Request 52/15000
