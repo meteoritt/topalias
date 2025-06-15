@@ -4,9 +4,9 @@
 
 import sys
 
+import aliascore as core
 import click
 
-import aliascore as core
 from topalias import __version__
 
 

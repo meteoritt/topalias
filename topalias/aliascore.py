@@ -8,9 +8,7 @@ import random
 import re
 import sys
 
-from topalias.statistic import most_used_utils
-from topalias.statistic import top_command
-
+from topalias.statistic import most_used_utils, top_command
 
 NOTHING = "Empty"
 

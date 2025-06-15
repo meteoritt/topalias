@@ -6,7 +6,6 @@ import json
 import requests
 from packaging.version import parse as version_parse
 
-
 TOPALIAS_PYPI_LATEST_VERSION = "https://pypi.python.org/pypi/topalias/json"
 
 
