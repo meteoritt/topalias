@@ -7,7 +7,6 @@ import sys
 
 import pytest
 import requests
-
 from bs4 import BeautifulSoup
 from click.testing import CliRunner
 
