@@ -13,7 +13,7 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 
 [tool.poetry]
 name = "topalias"
-version = "2.0.21"
+version = "2.0.22"
 description = "Linux bash alias generator"
 license = "GPL-3.0-or-later"
 
@@ -39,10 +39,14 @@ classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.14"
 Click = "^7.1"
 setuptools = "^57.4.0"
 
