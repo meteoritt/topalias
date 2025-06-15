@@ -9,34 +9,33 @@ on:
       - '!dependabot/*'
 
 jobs:
-    build-n-publish:
-        name: Build and publish Python 🐍 distributions 📦 to TestPyPI
-        runs-on: ubuntu-latest
+  build-n-publish:
+    name: Build and publish Python 🐍 distributions 📦 to TestPyPI
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
-        steps:
-            -   uses: actions/checkout@master
-            -   name: Set up Python 3.9
-                uses: actions/setup-python@v2
-                with:
-                    python-version: 3.9
-            -   name: Install pep517
-                run: >-
-                    python -m
-                    pip install
-                    pep517
-                    --user
-            -   name: Build a binary wheel and a source tarball
-                run: >-
-                    python -m
-                    pep517.build
-                    --source
-                    --binary
-                    --out-dir dist/
-                    .
-            -   name: Publish distribution 📦 to Test PyPI
-                uses: pypa/gh-action-pypi-publish@master
-                with:
-                    user: __token__
-                    password: ${{ secrets.test_pypi_password }}
-                    repository_url: https://test.pypi.org/legacy/
-                    skip_existing: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+          cache: 'pip'
+
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+
+      - name: Build package
+        run: python -m build
+
+      - name: Publish distribution 📦 to Test PyPI
+        uses: pypa/gh-action-pypi-publish@v1.8.11
+        with:
+          repository_url: https://test.pypi.org/legacy/
+          verbose: true
+          skip_existing: true
