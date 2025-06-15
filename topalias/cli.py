@@ -22,9 +22,9 @@ class AliasedGroup(click.Group):
         return super().get_command(ctx, cmd_name)
 
 
-def print_version(ctx, ver):
+def print_version(ctx, param, value):
     """Print current program version and check available online"""
-    if not ver or ctx.resilient_parsing:
+    if not value or ctx.resilient_parsing:
         return
     click.echo("topalias utility version: {}".format(__version__))
     click.echo("Update command:\npip3 install -U --user topalias")
@@ -136,7 +136,7 @@ def main(ctx) -> int:
 @click.pass_context
 def version(ctx) -> None:
     """Get program current and available version."""
-    print_version(ctx, ver=True)
+    print_version(ctx, param=None, value=True)
 
 
 @cli.command()

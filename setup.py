@@ -12,7 +12,7 @@ with open("CHANGELOG.md") as history_file:
     history = history_file.read()
 
 requirements = [
-    "Click>=7.1",
+    "Click>=8.0.1,<9.0.0",
 ]
 
 setup_requirements = [
@@ -60,6 +60,6 @@ setup(
     test_suite="tests",
     tests_require=test_requirements,
     url="https://github.com/CSRedRat/topalias",
-    version="2.0.20",
+    version="2.0.21",
     zip_safe=False,
 )
