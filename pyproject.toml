@@ -69,7 +69,7 @@ safety = "^3.5.2"
 
 pytest = "^6.1"
 pytest-cov = "^2.10"
-pytest-randomly = "^3.4"
+pytest-randomly = "^4.0"
 coverage = "^5.5"
 
 sphinx = "^3.5"
