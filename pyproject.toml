@@ -1,6 +1,6 @@
 [project]
 name = 'topalias'
-version = '2.0.26'
+version = '3.0.0'
 description = 'Can be run in the console from anywhere.'
 
 [project.scripts]
@@ -20,7 +20,7 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 
 [tool.poetry]
 name = "topalias"
-version = "2.0.26"
+version = "3.0.0"
 description = "Linux bash alias generator"
 license = "GPL-3.0-or-later"
 
