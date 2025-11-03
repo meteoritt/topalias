@@ -15,14 +15,6 @@ requirements = [
     "Click>=8.0.1,<9.0.0",
 ]
 
-setup_requirements = [
-    "pytest-runner",
-]
-
-test_requirements = [
-    "pytest>=3",
-]
-
 setup(
     author="Sergey Chudakov",
     author_email="csredrat@gmail.com",
@@ -56,10 +48,7 @@ setup(
     keywords="top bash zsh alias aliases linux python shell cli console terminal utility tool history sysadmin",
     name="topalias",
     packages=find_packages(include=["topalias", "topalias.*"]),
-    setup_requires=setup_requirements,
-    test_suite="tests",
-    tests_require=test_requirements,
     url="https://github.com/CSRedRat/topalias",
-    version="3.2.0",
+    version="3.10.0",
     zip_safe=False,
 )

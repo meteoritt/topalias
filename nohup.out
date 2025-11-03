@@ -58458,4 +58458,1125 @@ Request 1701/15000
 Both --no-clobber and --convert-links were specified, only --convert-links will be used.
 --2025-11-02 23:15:10--  https://distrowatch.com/table.php?distribution=kdeneon
 Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:34:48--  https://distrowatch.com/table.php?distribution=kdeneon
+--2025-11-03 07:34:48--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... Resolving distrowatch.com (distrowatch.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... connected.
+failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 1/15000
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:34:50--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .... .......... .......... .......... .......... 37.5K
+    50K ..........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 2/15000
+ .......... .......... .......... .......... 42.5K
+   100K .......... .......... .......... .......... .......... 71.3K
+   150K .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:34:53--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 3/15000
+.. .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:34:55--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... ...... 16.8K82.103.129.71, 2a00:9080:1:58a::1
 Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... 
+   200K .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 4/15000
+..... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:34:58--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 5/15000
+...... .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:00--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 6/15000
+........ 8.12K
+   250K ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:02--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 7/15000
+.. .......... .......... .......... .......... 18.4KBoth --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:05--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... 
+   300K .......... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 8/15000
+....... ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:08--  https://distrowatch.com/table.php?distribution=kdeneon
+ ..Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........ .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 9/15000
+......... 9.69K
+   350K .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:11--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 10/15000
+. .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:15--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 11/15000
+......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:17--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 6.76K
+   400K .......... .......... .........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 12/15000
+. .......... .......... 14.6KBoth --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:21--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 
+   450K ......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 13/15000
+. .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:23--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 14/15000
+.... .......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:25--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 8.17K
+   500K .......... ........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 15/15000
+.. .......... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:30--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 16/15000
+......... 9.11K
+   550K .......... .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:33--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . .......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 17/15000
+... 15.1K
+   600K ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:36--  https://distrowatch.com/table.php?distribution=kdeneon
+.......Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . .......... .......... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+........ ..Request 18/15000
+........ 18.3K
+   650K .......... .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:40--  https://distrowatch.com/table.php?distribution=kdeneon
+.Resolving distrowatch.com (distrowatch.com)... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 19/15000
+. ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:42--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. 9.61K
+   700K .......... ......                                      7.32K=56s
+
+2025-11-03 07:35:46 (12.8 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734016]
+
+FINISHED --2025-11-03 07:35:46--
+Total wall clock time: 58s
+Downloaded: 1 files, 717K in 56s (12.8 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 11.
+0-11
+Converted links in 1 files in 0.002 seconds.
+Request 1/15000
+failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 20/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:47--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:49--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... connected.
+82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 21/15000
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:52--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 22/15000
+........ .......... .......... .......... 17.7K
+    50K .......... .......... .......... .......... .......... 74.1K
+   100K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:54--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  .......... ..........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 23/15000
+ .......... .......... 53.0K
+   150K .......... .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:56--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 24/15000
+.... 22.9K
+   200K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:35:59--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)...  ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...... ..........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 25/15000
+ .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:02--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... ...... 8.47K
+   250K .......... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..... ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 26/15000
+.... .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:07--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ... 11.4Kfailed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 27/15000
+
+   300K ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:10--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 28/15000
+ .......... .......... .......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:12--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 11.8K
+   350K ........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 29/15000
+.. .......... .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:14--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... 19.3K
+   400K .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 30/15000
+...... .......... .......... .......... .......... 30.7K
+   450K .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:16--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 31/15000
+ .......... ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:18--  https://distrowatch.com/table.php?distribution=kdeneon
+......Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . .......... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 32/15000
+......... 12.1K
+   500K .......... .......... ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:22--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)...  ..........82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 33/15000
+.... 20.9K
+   550K .......... .......... .......... .......... .......... 39.9K
+   600K .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:24--  https://distrowatch.com/table.php?distribution=kdeneon
+.... .Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...... .........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 34/15000
+. 56.1K
+   650K .......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:27--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... . .......... .......... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 35/15000
+...... 12.8K
+   700K .......... ......                                      12.4K=39s
+
+2025-11-03 07:36:30 (18.3 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734016]
+
+FINISHED --2025-11-03 07:36:30--
+Total wall clock time: 43s
+Downloaded: 1 files, 717K in 39s (18.3 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0 seconds.
+Request 2/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:30--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 36/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:32--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:33--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 37/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:35--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 38/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:37--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... connected.
+failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+HTTP request sent, awaiting response... Request 39/15000
+200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 46.6K
+    50K .......... .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:40--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 40/15000
+... 17.0K
+   100K .......... ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:44--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ....... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ......... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 41/15000
+....... .......... 18.5K
+   150K .......... .......... .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:46--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ........ 34.0K
+   200K ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........ .......... .........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 42/15000
+. .......... .......... 18.2K
+   250K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:50--  https://distrowatch.com/table.php?distribution=kdeneon
+ ....Resolving distrowatch.com (distrowatch.com)... ...... .......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+........Request 43/15000
+ .......... 26.7K
+   300K .......... .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:53--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........ .......... 20.1K
+   350K .......... .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 44/15000
+..... .......... .......... .......... 17.9KBoth --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:57--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 
+   400K .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 45/15000
+. .......... .......... .......... ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:36:59--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... ..... 16.1K
+   450K .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ......... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 46/15000
+...... .......... .......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:02--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..... 20.2Kfailed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 47/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:04--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... 
+   500K ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 48/15000
+........ .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:06--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 49/15000
+.... .......... .......... 8.92K
+   550K .......... .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:08--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .. ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 50/15000
+. .......... 32.7K
+   600K .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:10--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 51/15000
+...... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:12--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... . ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 52/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:14--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 53/15000
+...... .......... 7.39K
+   650K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:16--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ..........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+ ..Converted links in 0 files in 0 seconds.
+Request 54/15000
+........ .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:18--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. 20.9K
+   700K .......... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 55/15000
+....                                      12.6K=41s
+
+2025-11-03 07:37:20 (17.4 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734016]
+
+FINISHED --2025-11-03 07:37:20--
+Total wall clock time: 48s
+Downloaded: 1 files, 717K in 41s (17.4 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... nothing to do.
+Converted links in 1 files in 0 seconds.
+Request 3/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:21--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:21--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 56/15000
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .......... 46.8KBoth --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:23--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 
+    50K .......... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 57/15000
+...... .......... .......... 37.1K
+   100K .......... .......... .......... .......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:25--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .... 42.6K
+   150K .......... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 58/15000
+......... .......... .......... .......... 44.7K
+   200K .......... .......... .......... .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:28--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .. 50.5K
+   250K .......... ......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .... ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 59/15000
+.... .......... .......... 45.8K
+   300K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:30--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)...  .......... .......... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 60/15000
+ .......... 19.8K
+   350K ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:32--  https://distrowatch.com/table.php?distribution=kdeneon
+.Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 61/15000
+......... .......... .......... .......... 14.1K
+   400K .......... .......... .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:36--  https://distrowatch.com/table.php?distribution=kdeneon
+... ..Resolving distrowatch.com (distrowatch.com)... ........ .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 62/15000
+......... 27.1K
+   450K .......... .......... .......... .......... .......... 62.1K
+   500K .......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:38--  https://distrowatch.com/table.php?distribution=kdeneon
+.....Resolving distrowatch.com (distrowatch.com)...  ..........82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  .......... .......... 39.0Kfailed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 63/15000
+
+   550K .......... .......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:41--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 64/15000
+......... .......... 20.0K
+   600K .......... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:42--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 65/15000
+...... .......... .......... .......... 15.5K
+   650K .......... .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:45--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... ........82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. 39.8K
+   700K ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 66/15000
+...... ......                                      61.1K=24s
+
+2025-11-03 07:37:46 (29.8 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734016]
+
+FINISHED --2025-11-03 07:37:46--
+Total wall clock time: 25s
+Downloaded: 1 files, 717K in 24s (29.8 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 3.
+0-3
+Converted links in 1 files in 0.001 seconds.
+Request 4/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:48--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:48--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 67/15000
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .......... .......... .......... .......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:50--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 35.6Kfailed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 68/15000
+
+    50K .......... .......... .......... .......... .......... 27.5K
+   100K ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:52--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 69/15000
+........ .......... .......... .......... 25.0KBoth --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:54--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 70/15000
+
+   150K .......... .......... .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:56--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 71/15000
+....... 18.6K
+   200K .......... ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:37:58--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 72/15000
+ .......... .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:00--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ........ 13.2K
+   250K .......... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 73/15000
+........ ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:03--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)...  .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 74/15000
+........ .......... 10.6K
+   300K .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:05--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 75/15000
+.. .......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:08--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 76/15000
+. .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:10--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 77/15000
+.Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:12--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .... 6.80K
+   350K .......... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 78/15000
+........ .......... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:15--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 79/15000
+......... .........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:17--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 11.1K
+   400K ........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 80/15000
+.. .......... .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:19--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 81/15000
+... .......... 15.8K
+   450K ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:21--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 82/15000
+.. .......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:23--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........ ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 83/15000
+....... .......... 15.3K
+   500K .......... .......... .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:25--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+...Request 84/15000
+.... 26.6K
+   550K .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:27--  https://distrowatch.com/table.php?distribution=kdeneon
+.... ...Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+.. ...Request 85/15000
+....... .......... 16.4K
+   600K ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:29--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 86/15000
+. ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:32--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 87/15000
+.. ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:35--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 88/15000
+........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:39--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 89/15000
+ ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:42--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 90/15000
+...... 2.85K
+   650K ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:46--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 91/15000
+.. .......... .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:49--  https://distrowatch.com/table.php?distribution=kdeneon
+..Resolving distrowatch.com (distrowatch.com)... .... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ....... 10.3K
+   700K .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 92/15000
+..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:53--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 93/15000
+.....                                      4.41K=66s
+
+2025-11-03 07:38:55 (10.9 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734015]
+
+FINISHED --2025-11-03 07:38:55--
+Total wall clock time: 1m 7s
+Downloaded: 1 files, 717K in 1m 6s (10.9 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 6.
+2-4
+Converted links in 1 files in 0.06 seconds.
+Request 5/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:56--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 94/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:57--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... 140.82.121.4
+Connecting to github.com (github.com)|140.82.121.4|:443... connected.
+HTTP request sent, awaiting response... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:38:58--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 95/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:01--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+
+     0K .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 96/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:03--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 97/15000
+.. ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:06--  https://distrowatch.com/table.php?distribution=kdeneon
+.Resolving distrowatch.com (distrowatch.com)... ... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 98/15000
+.. .......... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:08--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 99/15000
+.... 4.98K
+    50K ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:12--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  .......... ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 100/15000
+.... .......... .......... 12.6K
+   100K .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:16--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... .......... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ........ ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 101/15000
+........ 20.8K
+   150K .......... .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:19--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... ... .......... .......... 18.3K
+   200K .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 102/15000
+.... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:22--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... ..........82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 103/15000
+..... 13.2K
+   250K ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:25--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)...  .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 104/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:28--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 105/15000
+. .......... .......... .......... 7.85K
+   300K .......... ........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:31--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 106/15000
+.... .......... .......... 27.3K
+   350K ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:33--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 107/15000
+.. .......... .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:35--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ...82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 108/15000
+...... ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:37--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ......82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 7.60K
+   400K ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 109/15000
+....... ..........Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:41--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 110/15000
+......... ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:44--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 111/15000
+.Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:46--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 112/15000
+....... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:48--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ...failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 113/15000
+.Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:50--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .. 4.08K
+   450K ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 114/15000
+........ .......... .......... .......... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:53--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... . 23.4K
+   500K ..........82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 115/15000
+ .......... .......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:55--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ... .....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 116/15000
+... .......... 15.6K
+   550K ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:39:57--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... ..82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..... ..........failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 117/15000
+ .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:02--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 118/15000
+..... .......... .....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:04--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 119/15000
+..... 5.66K
+   600K ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:06--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 120/15000
+....... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:08--  https://distrowatch.com/table.php?distribution=kdeneon
+....Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 121/15000
+... .......... ...Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:11--  https://distrowatch.com/table.php?distribution=kdeneon
+...Resolving distrowatch.com (distrowatch.com)... ....82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443...  ..failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 122/15000
+.......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:15--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . 4.70Kfailed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 123/15000
+
+   650K ..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:18--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 124/15000
+....... .Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:21--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 125/15000
+......... .......... ....Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:24--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 126/15000
+..... ......Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:26--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .... 4.54K
+   700K .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... ......failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 127/15000
+... ......                                      9.84K=88s
+
+2025-11-03 07:40:28 (8.19 KB/s) - ‘github.com/meteoritt/gentleman.html’ saved [734042]
+
+FINISHED --2025-11-03 07:40:28--
+Total wall clock time: 1m 31s
+Downloaded: 1 files, 717K in 1m 28s (8.19 KB/s)
+Converting links in github.com/meteoritt/gentleman.html... 6.
+2-4
+Converted links in 1 files in 0 seconds.
+Request 6/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:29--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:30--  https://github.com/meteoritt/gentleman
+Resolving github.com (github.com)... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 128/15000
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:32--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... 140.82.121.3
+Connecting to github.com (github.com)|140.82.121.3|:443... failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 129/15000
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘github.com/meteoritt/gentleman.html’
+Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:35--  https://distrowatch.com/table.php?distribution=kdeneon
+
+     0K .Resolving distrowatch.com (distrowatch.com)... 82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... .....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 130/15000
+..Both --no-clobber and --convert-links were specified, only --convert-links will be used.
+--2025-11-03 07:40:39--  https://distrowatch.com/table.php?distribution=kdeneon
+Resolving distrowatch.com (distrowatch.com)... .82.103.129.71, 2a00:9080:1:58a::1
+Connecting to distrowatch.com (distrowatch.com)|82.103.129.71|:443... . ....failed: Connection refused.
+Connecting to distrowatch.com (distrowatch.com)|2a00:9080:1:58a::1|:443... failed: Network is unreachable.
+Converted links in 0 files in 0 seconds.
+Request 131/15000
+...... .......... ..
