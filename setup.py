@@ -33,6 +33,10 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
     ],
     description="Linux bash aliases generator",
     entry_points={
@@ -49,6 +53,6 @@ setup(
     name="topalias",
     packages=find_packages(include=["topalias", "topalias.*"]),
     url="https://github.com/CSRedRat/topalias",
-    version="3.11.0",
+    version="3.99.0",
     zip_safe=False,
 )
