@@ -46,7 +46,7 @@ Click = "^8.0.0"
 setuptools = "^65.5.1"
 typing-extensions = ">=3.6,<4.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 bump2version = "^1.0.1"
 
 wemake-python-styleguide = "^0.15"
