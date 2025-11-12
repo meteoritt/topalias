@@ -6,7 +6,7 @@ import sys
 
 __author__ = "Sergey Chudakov"
 __email__ = "csredrat@gmail.com"
-__version__ = "3.11.0"
+__version__ = "3.99.0"
 
 sys.path.insert(
     0,
