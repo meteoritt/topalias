@@ -8,7 +8,7 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 
 [tool.poetry]
 name = "topalias"
-version = "3.100.0"
+version = "4.0.0"
 description = "Linux bash alias generator"
 license = "GPL-3.0-or-later"
 
