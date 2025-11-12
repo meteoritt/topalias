@@ -16,7 +16,7 @@ DEBUG = False
 HOME = os.path.expanduser("~")
 CURRENT = os.path.expanduser(".")
 path = [CURRENT, HOME]
-SUGGESTION_COUNT = 20
+SUGGESTION_COUNT = 30
 ALIASES_FILTER = False
 HISTORY_FILE = ".bash_history"
 
@@ -30,7 +30,7 @@ logging.basicConfig(
 def find_first(filename: str, paths: list) -> str:  # type: ignore
     """Find file in PATH
     :rtype: str
-    :param filename: what file search
+    :param filename: what file search Ctrl+Shift+F
     :param paths: where search file with directory order
     :type filename: str
     :type paths: list
@@ -167,7 +167,7 @@ hint_bank = (
     'Hint: ignore duplicates in history: echo "export HISTCONTROL=ignoreboth" >> ~/.bashrc',
     "Hint: run 'alias' command to print all used aliases",
     "Hint: example aliases: https://github.com/CSRedRat/topalias/blob/master/topalias/data/.bash_aliases"
-    + " (you can add their)",
+    + " (you can add their https://github.com/meteoritt/topalias/issues/19)",
 )
 
 
