@@ -6,6 +6,7 @@ import logging
 import os
 import random
 import re
+import subprocess
 import sys
 
 from topalias.statistic import most_used_utils, top_command
@@ -19,6 +20,7 @@ path = [CURRENT, HOME]
 SUGGESTION_COUNT = 30
 ALIASES_FILTER = False
 HISTORY_FILE = ".bash_history"
+BASH_VERSION = None  # Will be auto-detected or set via CLI
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -74,6 +76,40 @@ def find_aliases() -> str:  # pylint: disable=inconsistent-return-statements
     if DEBUG:
         file_dir = os.path.dirname(os.path.realpath(__file__))
         return os.path.join(file_dir, "data/.bash_aliases")
+
+
+def detect_bash_version() -> str:
+    """Detect Bash version from system
+    Returns version string like '5.0', '4.4', '3.2' or 'unknown'
+    """
+    try:
+        result = subprocess.run(
+            ["bash", "--version"],
+            capture_output=True,
+            text=True,
+            timeout=5,
+            check=False,
+        )
+        if result.returncode == 0:
+            # Bash version output format: "GNU bash, version 5.1.16(1)-release..."
+            version_match = re.search(r"version (\d+)\.(\d+)", result.stdout)
+            if version_match:
+                major = version_match.group(1)
+                minor = version_match.group(2)
+                return f"{major}.{minor}"
+    except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
+        pass
+    return "unknown"
+
+
+def get_bash_version() -> str:
+    """Get Bash version, auto-detect if not set"""
+    global BASH_VERSION  # noqa: WPS420
+    if BASH_VERSION is None:
+        BASH_VERSION = detect_bash_version()
+        if DEBUG:
+            logging.debug("Detected Bash version: %s", BASH_VERSION)
+    return BASH_VERSION
 
 
 used_alias = []
@@ -184,17 +220,55 @@ def print_all_hint() -> None:
         print(number, hint)
 
 
-def process_bash_line(line: str, filtering: bool = False):
-    """ Process bash history line """
-    if (not line.startswith("#", 0, 1)) and line != "":
-        clear_line = line.rstrip()
-        if filtering and clear_line:
-            first_word_in_command = clear_line.split()[0]
-            if first_word_in_command not in used_alias:
-                return clear_line
+def process_bash_line(line: str, filtering: bool = False, bash_version: str = None):
+    """Process bash history line with version-aware parsing
+    
+    Args:
+        line: History line to process
+        filtering: Whether to filter by used aliases
+        bash_version: Bash version string (e.g., '5.0', '4.4', '3.2')
+    
+    Returns:
+        Processed command line or None if should be skipped
+    """
+    if bash_version is None:
+        bash_version = get_bash_version()
+    
+    # Skip empty lines
+    if line == "":
+        return None
+    
+    # Handle timestamp lines (Bash 4.0+ with HISTTIMEFORMAT)
+    # Format: #1234567890 (Unix timestamp)
+    if line.startswith("#", 0, 1):
+        # Check if it's a timestamp (numeric after #)
+        timestamp_match = re.match(r"^#(\d+)$", line.strip())
+        if timestamp_match:
+            # This is a timestamp line, skip it
             return None
-        return clear_line or None
-    return None
+        # If it's not a timestamp but starts with #, might be a comment
+        # In Bash history, comments are rare, but we'll skip them
+        return None
+    
+    # Process command line
+    clear_line = line.rstrip()
+    
+    # Skip empty lines after stripping
+    if not clear_line:
+        return None
+    
+    # Handle multiline commands (Bash 4.0+)
+    # Multiline commands end with backslash, but in history they appear as separate lines
+    # The load_command_bank function handles multiline buffering
+    
+    # Apply filtering if requested
+    if filtering and clear_line:
+        first_word_in_command = clear_line.split()[0]
+        if first_word_in_command not in used_alias:
+            return clear_line
+        return None
+    
+    return clear_line
 
 
 def process_zsh_line(line: str, filtering: bool = False):
@@ -210,10 +284,12 @@ def process_zsh_line(line: str, filtering: bool = False):
 
 
 def load_command_bank(filtering=False):  # pylint: disable=too-many-branches
-    """Read and parse shell command history file"""
+    """Read and parse shell command history file with version-aware parsing"""
     command_bank = []
     history_file_path = find_history()
     multiline_buffer = []
+    bash_version = get_bash_version()
+    
     try:
         with io.FileIO("{}".format(history_file_path), "r") as history_data:
             history_data_encoded = io.TextIOWrapper(
@@ -223,8 +299,35 @@ def load_command_bank(filtering=False):  # pylint: disable=too-many-branches
             )
             for line in history_data_encoded:
                 if HISTORY_FILE == ".bash_history":  # noqa: WPS223
-                    if process_bash_line(line, filtering):
-                        command_bank.append(process_bash_line(line, filtering))
+                    # Bash history processing with version support
+                    # Skip timestamp lines first (Bash 4.0+ with HISTTIMEFORMAT)
+                    stripped_line = line.strip()
+                    if stripped_line.startswith("#") and re.match(r"^#\d+$", stripped_line):
+                        # This is a timestamp line, skip it
+                        continue
+                    
+                    # Handle multiline commands for Bash 4.0+
+                    if bash_version != "unknown" and float(bash_version) >= 4.0:
+                        # Bash 4.0+ multiline support
+                        # First line of multiline ends with '\'
+                        if stripped_line.endswith("\\") and not multiline_buffer:
+                            multiline_buffer.append(stripped_line[:-1])
+                            continue
+                        # Next line of multiline
+                        if multiline_buffer:
+                            # If not last line in multiline
+                            if stripped_line.endswith("\\"):
+                                multiline_buffer.append(stripped_line[:-1])
+                                continue
+                            # If last line in multiline - add it and process
+                            multiline_buffer.append(stripped_line)
+                            line = " ".join(multiline_buffer)  # noqa: WPS440
+                            multiline_buffer = []
+                    
+                    # Process the line with version-aware parsing
+                    processed = process_bash_line(line, filtering, bash_version)
+                    if processed:
+                        command_bank.append(processed)
                 else:
                     # ZSH processing
                     # Multiline handler
