@@ -106,3 +106,28 @@ dist: clean ## builds source and wheel package
 
 install: clean ## install the package to the active Python's site-packages
 	python setup.py install
+
+.PHONY: build-deb
+build-deb: dist ## build Debian package (.deb)
+	@echo "Building Debian package..."
+	dpkg-buildpackage -b -us -uc
+	@echo "Debian package built in parent directory"
+
+.PHONY: build-rpm
+build-rpm: dist ## build RPM package for Alt Linux and other RPM-based distros
+	@echo "Building RPM package..."
+	@if [ ! -d ~/rpmbuild ]; then mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}; fi
+	cp dist/topalias-*.tar.gz ~/rpmbuild/SOURCES/
+	cp topalias.spec ~/rpmbuild/SPECS/
+	rpmbuild -ba ~/rpmbuild/SPECS/topalias.spec
+	@echo "RPM package built in ~/rpmbuild/RPMS/"
+
+.PHONY: build-arch
+build-arch: ## build Arch Linux package using PKGBUILD
+	@echo "Building Arch Linux package..."
+	makepkg -s
+	@echo "Arch Linux package built in current directory"
+
+.PHONY: packages
+packages: build-deb build-rpm build-arch ## build all package formats
+	@echo "All packages built successfully"

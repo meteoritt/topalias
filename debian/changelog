@@ -1,0 +1,6 @@
+topalias (4.1.0-1) unstable; urgency=medium
+
+  * Initial Debian package release
+
+ -- Sergey Chudakov <csredrat@gmail.com>  Mon, 16 Nov 2025 12:00:00 +0000
+
