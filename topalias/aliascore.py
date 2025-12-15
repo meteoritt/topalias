@@ -51,19 +51,37 @@ def find_first(filename: str, paths: list) -> str:  # type: ignore
 
 def find_history() -> str:  # pylint: disable=inconsistent-return-statements
     """Find command history file"""
+    # Fish history is in a specific location
+    if HISTORY_FILE == "fish_history":
+        fish_history_path = os.path.join(HOME, ".local", "share", "fish", "fish_history")
+        if os.path.isfile(fish_history_path):
+            logging.debug("History file: %s", fish_history_path)
+            return fish_history_path
+        # Try custom path
+        history_path = find_first(".fish_history", path)
+        if history_path != NOTHING:
+            logging.debug("History file: %s", history_path)
+            return history_path
+        # Try fish_history in custom path
+        history_path = find_first("fish_history", path)
+        if history_path != NOTHING:
+            logging.debug("History file: %s", history_path)
+            return history_path
+
     history_path = find_first(HISTORY_FILE, path)
     if history_path != NOTHING:
         logging.debug("History file: %s", history_path)
         return history_path
     print("File {} not found in any of the directories".format(HISTORY_FILE))
-    if DEBUG:
-        file_dir = os.path.dirname(os.path.realpath(__file__))
-        if HISTORY_FILE == ".zsh_history":
-            data_path = os.path.join(file_dir, "data/.zsh_history")
-        else:
-            data_path = os.path.join(file_dir, "data/.bash_history")
-        logging.debug("History file: %s", data_path)
-        return data_path
+    file_dir = os.path.dirname(os.path.realpath(__file__))
+    if HISTORY_FILE == ".zsh_history":
+        data_path = os.path.join(file_dir, "data/.zsh_history")
+    elif HISTORY_FILE == "fish_history":
+        data_path = os.path.join(file_dir, "data/fish_history")
+    else:
+        data_path = os.path.join(file_dir, "data/.bash_history")
+    logging.debug("History file: %s", data_path)
+    return data_path
 
 
 def find_aliases() -> str:  # pylint: disable=inconsistent-return-statements
@@ -73,9 +91,8 @@ def find_aliases() -> str:  # pylint: disable=inconsistent-return-statements
     if aliases_path != NOTHING:
         return aliases_path
     print("File {} not found in any of the directories ".format(aliases_name))
-    if DEBUG:
-        file_dir = os.path.dirname(os.path.realpath(__file__))
-        return os.path.join(file_dir, "data/.bash_aliases")
+    file_dir = os.path.dirname(os.path.realpath(__file__))
+    return os.path.join(file_dir, "data/.bash_aliases")
 
 
 def detect_bash_version() -> str:
@@ -209,35 +226,45 @@ hint_bank = (
 
 def print_hint() -> None:
     """Hints for user"""
-    print("\nRun after add alias: source ~/.bash_aliases")
+    if HISTORY_FILE == ".zsh_history":
+        print("\nRun after add alias: source ~/.zshrc")
+    elif HISTORY_FILE == "fish_history":
+        print("\nRun after add alias: source ~/.config/fish/config.fish")
+    else:
+        print("\nRun after add alias: source ~/.bash_aliases")
     print(random.choice(hint_bank))
 
 
 def print_all_hint() -> None:
     """Print all hints"""
-    print("\nRun after add alias: source ~/.bash_aliases")
+    if HISTORY_FILE == ".zsh_history":
+        print("\nRun after add alias: source ~/.zshrc")
+    elif HISTORY_FILE == "fish_history":
+        print("\nRun after add alias: source ~/.config/fish/config.fish")
+    else:
+        print("\nRun after add alias: source ~/.bash_aliases")
     for number, hint in enumerate(hint_bank):
         print(number, hint)
 
 
-def process_bash_line(line: str, filtering: bool = False, bash_version: str = None):
+def process_bash_line(line: str, filtering: bool = False, bash_version: str | None = None):
     """Process bash history line with version-aware parsing
-    
+
     Args:
         line: History line to process
         filtering: Whether to filter by used aliases
         bash_version: Bash version string (e.g., '5.0', '4.4', '3.2')
-    
+
     Returns:
         Processed command line or None if should be skipped
     """
     if bash_version is None:
         bash_version = get_bash_version()
-    
+
     # Skip empty lines
     if line == "":
         return None
-    
+
     # Handle timestamp lines (Bash 4.0+ with HISTTIMEFORMAT)
     # Format: #1234567890 (Unix timestamp)
     if line.startswith("#", 0, 1):
@@ -249,25 +276,25 @@ def process_bash_line(line: str, filtering: bool = False, bash_version: str = No
         # If it's not a timestamp but starts with #, might be a comment
         # In Bash history, comments are rare, but we'll skip them
         return None
-    
+
     # Process command line
     clear_line = line.rstrip()
-    
+
     # Skip empty lines after stripping
     if not clear_line:
         return None
-    
+
     # Handle multiline commands (Bash 4.0+)
     # Multiline commands end with backslash, but in history they appear as separate lines
     # The load_command_bank function handles multiline buffering
-    
+
     # Apply filtering if requested
     if filtering and clear_line:
         first_word_in_command = clear_line.split()[0]
         if first_word_in_command not in used_alias:
             return clear_line
         return None
-    
+
     return clear_line
 
 
@@ -283,13 +310,63 @@ def process_zsh_line(line: str, filtering: bool = False):
     return None
 
 
+def process_fish_line(line: str, filtering: bool = False):
+    """Process fish history line
+
+    Fish history format:
+    - cmd: <command>
+    - cmd: <timestamp> <command>
+
+    Args:
+        line: History line to process
+        filtering: Whether to filter by used aliases
+
+    Returns:
+        Processed command line or None if should be skipped
+    """
+    # Skip empty lines
+    if not line or line.strip() == "":
+        return None
+
+    # Fish history lines start with "- cmd: "
+    if not line.startswith("- cmd: "):
+        return None
+
+    # Extract the command part
+    # Format: "- cmd: <command>" or "- cmd: <timestamp> <command>"
+    cmd_part = line[7:].strip()  # Remove "- cmd: " prefix
+
+    # Check if there's a timestamp (starts with digits)
+    # Fish timestamps are Unix timestamps
+    parts = cmd_part.split(None, 1)
+    if len(parts) == 2 and parts[0].isdigit():
+        # Has timestamp, extract command
+        clear_line = parts[1].rstrip()
+    else:
+        # No timestamp, the whole thing is the command
+        clear_line = cmd_part.rstrip()
+
+    # Skip empty lines after processing
+    if not clear_line:
+        return None
+
+    # Apply filtering if requested
+    if filtering and clear_line:
+        first_word_in_command = clear_line.split()[0]
+        if first_word_in_command not in used_alias:
+            return clear_line
+        return None
+
+    return clear_line
+
+
 def load_command_bank(filtering=False):  # pylint: disable=too-many-branches
     """Read and parse shell command history file with version-aware parsing"""
     command_bank = []
     history_file_path = find_history()
     multiline_buffer = []
     bash_version = get_bash_version()
-    
+
     try:
         with io.FileIO("{}".format(history_file_path), "r") as history_data:
             history_data_encoded = io.TextIOWrapper(
@@ -305,7 +382,7 @@ def load_command_bank(filtering=False):  # pylint: disable=too-many-branches
                     if stripped_line.startswith("#") and re.match(r"^#\d+$", stripped_line):
                         # This is a timestamp line, skip it
                         continue
-                    
+
                     # Handle multiline commands for Bash 4.0+
                     if bash_version != "unknown" and float(bash_version) >= 4.0:
                         # Bash 4.0+ multiline support
@@ -323,9 +400,16 @@ def load_command_bank(filtering=False):  # pylint: disable=too-many-branches
                             multiline_buffer.append(stripped_line)
                             line = " ".join(multiline_buffer)  # noqa: WPS440
                             multiline_buffer = []
-                    
+
                     # Process the line with version-aware parsing
                     processed = process_bash_line(line, filtering, bash_version)
+                    if processed:
+                        command_bank.append(processed)
+                elif HISTORY_FILE == "fish_history":
+                    # Fish history processing
+                    # Fish history doesn't use multiline continuation like bash/zsh
+                    # Each command is on a single line with "- cmd: " prefix
+                    processed = process_fish_line(line, filtering)
                     if processed:
                         command_bank.append(processed)
                 else:
@@ -373,6 +457,8 @@ def print_history(acronym_length) -> None:
 
     if HISTORY_FILE == ".zsh_history":
         aliases_output = "~/.zshrc"
+    elif HISTORY_FILE == "fish_history":
+        aliases_output = "~/.config/fish/config.fish"
     else:
         aliases_output = "~/.bash_aliases"
 
