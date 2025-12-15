@@ -25,8 +25,12 @@ class AliasedGroup(click.Group):
     """Add alias for command by function name"""
 
     def get_command(self, ctx, cmd_name):
+        if cmd_name is None:
+            return super().get_command(ctx, cmd_name)
         try:
-            cmd_name = ALIASES[cmd_name].name
+            aliased_name = ALIASES[cmd_name].name
+            if aliased_name is not None:
+                cmd_name = aliased_name
         except KeyError:
             pass  # noqa: WPS420
         return super().get_command(ctx, cmd_name)
@@ -171,7 +175,7 @@ def upgrade_version(ctx, param, value):
     "--path",
     "-f",
     type=str,
-    help="Change custom directory for files: .bash_aliases, .bash_history, .zsh_history",
+    help="Change custom directory for files: .bash_aliases, .bash_history, .zsh_history, fish_history",
 )
 @click.option(
     "--version",
@@ -223,6 +227,9 @@ def cli(ctx, debug, acr, path, count, filtering, zsh, fish, bash_version) -> int
     if zsh:
         core.HISTORY_FILE = ".zsh_history"
 
+    if fish:
+        core.HISTORY_FILE = "fish_history"
+
     if bash_version is not None:
         # Validate version format
         version_match = re.match(r"^\d+\.\d+$", bash_version)
@@ -249,7 +256,7 @@ def cli(ctx, debug, acr, path, count, filtering, zsh, fish, bash_version) -> int
 def main(ctx) -> int:
     """Main function for group command call."""
     click.echo(
-        "topalias - linux bash/zsh alias generator & history analytics https://github.com/CSRedRat/topalias",
+        "topalias - linux bash/zsh/fish alias generator & history analytics https://github.com/CSRedRat/topalias",
     )
     if ctx.obj["DEBUG"]:
         click.echo(ctx.obj)
