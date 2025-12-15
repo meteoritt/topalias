@@ -81,6 +81,13 @@ def print_version(ctx, param, value):
     help="Specify Bash version (e.g., '5.0', '4.4', '3.2'). Auto-detected if not specified.",
 )
 @click.option(
+    "--fish",
+    default=False,
+    is_flag=True,
+    type=bool,
+    help="Use fish shell history file ~/.local/share/fish/fish_history, .fish_history. Default: False",
+)
+@click.option(
     "--path",
     "-f",
     type=str,
