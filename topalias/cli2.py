@@ -46,7 +46,7 @@ def print_version(ctx, param, value):
 @click.option(
     "--count",
     "-c",
-    default=20,  # noqa: WPS432
+    default=30,  # noqa: WPS432
     type=int,
     help="Print specified number acronym suggestions. Default: 20",
 )

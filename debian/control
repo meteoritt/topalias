@@ -1,0 +1,33 @@
+Source: topalias
+Section: utils
+Priority: optional
+Maintainer: Sergey Chudakov <csredrat@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-wheel,
+               python3-build,
+               python3-installer
+Standards-Version: 4.6.0
+Homepage: https://github.com/CSRedRat/topalias
+Vcs-Browser: https://github.com/CSRedRat/topalias
+Vcs-Git: https://github.com/CSRedRat/topalias.git
+
+Package: topalias
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-click (>= 8.0.1)
+Description: Linux bash aliases generator from bash/zsh command history
+ topalias is a Linux alias generator from bash/zsh command history with
+ statistics. It generates short aliases for popular commands from shell
+ history and provides command history statistics and analytics.
+ .
+ Features:
+  - Generate short alias for popular command from bash/zsh shell history
+  - Command history statistics & analytics
+  - Parametrised input
+  - Console help for all commands, options and arguments
+  - Shell workflow hints
+

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# License GPLv3 #__# $5 default alias counter 30
+
 # Install requirements
 #sudo apt install python3 python3-pip -y
 

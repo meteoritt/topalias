@@ -89,6 +89,56 @@ def test_process_bash_line():
     assert aliascore.process_bash_line(line2) == line2
 
 
+def test_process_bash_line_with_version():
+    """ test process_bash_line with different Bash versions """
+    # Test timestamp handling (Bash 4.0+)
+    timestamp_line = "#1602983983"
+    assert aliascore.process_bash_line(timestamp_line, bash_version="4.0") is None
+    assert aliascore.process_bash_line(timestamp_line, bash_version="5.0") is None
+    
+    # Test regular command
+    command_line = "ls -la"
+    assert aliascore.process_bash_line(command_line, bash_version="3.2") == "ls -la"
+    assert aliascore.process_bash_line(command_line, bash_version="4.4") == "ls -la"
+    assert aliascore.process_bash_line(command_line, bash_version="5.0") == "ls -la"
+    
+    # Test empty line
+    assert aliascore.process_bash_line("", bash_version="5.0") is None
+    assert aliascore.process_bash_line("   ", bash_version="5.0") is None
+
+
+def test_detect_bash_version():
+    """ test Bash version detection """
+    version = aliascore.detect_bash_version()
+    # Should return a version string or "unknown"
+    assert isinstance(version, str)
+    assert version == "unknown" or "." in version
+
+
+def test_get_bash_version():
+    """ test get_bash_version function """
+    # Reset global version
+    aliascore.BASH_VERSION = None
+    version = aliascore.get_bash_version()
+    assert isinstance(version, str)
+    # Should be cached after first call
+    version2 = aliascore.get_bash_version()
+    assert version == version2
+
+
+def test_bash_version_cli_option():
+    """ test CLI option for Bash version """
+    runner = CliRunner()
+    # Test with valid version
+    result = runner.invoke(cli.cli, ["--bash-version", "5.0", "--debug", "--help"])
+    assert result.exit_code == 0
+    
+    # Test with invalid version format
+    result = runner.invoke(cli.cli, ["--bash-version", "invalid", "--help"])
+    # Should still work but show warning or auto-detect
+    assert result.exit_code == 0
+
+
 def test_process_zsh_line():
     """ test process_zsh_line """
     line1 = ": 1605767719:0;pip3 install -U --user topalias"

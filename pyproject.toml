@@ -1,18 +1,6 @@
-[project]
-name = 'topalias'
-version = '2.0.26'
-description = 'Can be run in the console from anywhere.'
-
-[project.scripts]
-topalias = 'topalias.cli:cli'
-
 [build-system]
-requires = [
-    "poetry>=1.0",
-    "setuptools>=65.5.1",
-    "wheel",
-]
-build-backend = "poetry.masonry.api"
+requires = ["setuptools>=65.5.1", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [tool.nitpick]
 style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style-wemake.toml"
@@ -20,7 +8,7 @@ style = "https://raw.githubusercontent.com/wemake-services/wemake-python-stylegu
 
 [tool.poetry]
 name = "topalias"
-version = "2.0.26"
+version = "4.3.1"
 description = "Linux bash alias generator"
 license = "GPL-3.0-or-later"
 
@@ -50,6 +38,8 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
 ]
 
 [tool.poetry.dependencies]
@@ -58,7 +48,7 @@ Click = "^8.0.0"
 setuptools = "^65.5.1"
 typing-extensions = ">=3.6,<4.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 bump2version = "^1.0.1"
 
 wemake-python-styleguide = "^0.15"
@@ -83,7 +73,7 @@ flake8 = "^3.9.0"
 tox = "^3.23.0"
 pylint = "^2.7.2"
 black = "^22.3.0"
-pre-commit = "^4.3.0"
+pre-commit = "^4.3.1"
 isort = "^5.8"
 
 requests = "^2.25.1"

@@ -2,12 +2,21 @@
 # -*- coding: utf-8 -*-
 """Console script topalias."""
 
+import os
 import sys
 
-from . import aliascore as core
+# Add parent directory to path if running directly
+if __name__ == "__main__":
+    parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if parent_dir not in sys.path:
+        sys.path.insert(0, parent_dir)
+
+import re
+
 import click
 
-from . import __version__
+from topalias import __version__
+from topalias import aliascore as core
 
 
 class AliasedGroup(click.Group):
@@ -46,7 +55,7 @@ def print_version(ctx, param, value):
 @click.option(
     "--count",
     "-c",
-    default=20,  # noqa: WPS432
+    default=30,  # noqa: WPS432
     type=int,
     help="Print specified number acronym suggestions. Default: 20",
 )
@@ -65,6 +74,11 @@ def print_version(ctx, param, value):
     is_flag=True,
     type=bool,
     help="Use zsh shell history file .zsh_history. Default: False",
+)
+@click.option(
+    "--bash-version",
+    type=str,
+    help="Specify Bash version (e.g., '5.0', '4.4', '3.2'). Auto-detected if not specified.",
 )
 @click.option(
     "--path",
@@ -86,7 +100,7 @@ def print_version(ctx, param, value):
     help="Enable debug strings in output.",
 )
 @click.pass_context
-def cli(ctx, debug, acr, path, count, filtering, zsh) -> int:  # noqa: WPS211,WPS216
+def cli(ctx, debug, acr, path, count, filtering, zsh, bash_version) -> int:  # noqa: WPS211,WPS216
     """See documentation and usage examples: https://csredrat.github.io/topalias"""
 
     ctx.ensure_object(dict)
@@ -104,8 +118,20 @@ def cli(ctx, debug, acr, path, count, filtering, zsh) -> int:  # noqa: WPS211,WP
     if zsh:
         core.HISTORY_FILE = ".zsh_history"
 
+    if bash_version is not None:
+        # Validate version format
+        version_match = re.match(r"^\d+\.\d+$", bash_version)
+        if version_match:
+            core.BASH_VERSION = bash_version
+            if debug:
+                click.echo(f"Bash version set to: {bash_version}")
+        else:
+            click.echo(f"Warning: Invalid Bash version format '{bash_version}'. Expected format: 'X.Y' (e.g., '5.0'). Auto-detecting...", err=True)
+
     if debug:
         click.echo("Debug mode is ON")
+        detected_version = core.get_bash_version()
+        click.echo(f"Bash version: {detected_version}")
     if ctx.invoked_subcommand is None:
         return ctx.invoke(main)
     return 0

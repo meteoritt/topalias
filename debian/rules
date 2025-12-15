@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@ --with python3
+
+override_dh_auto_build:
+	python3 -m build --wheel --no-isolation
+
+override_dh_auto_install:
+	python3 -m installer --destdir=debian/topalias dist/*.whl
+
