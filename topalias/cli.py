@@ -5,6 +5,8 @@
 import os
 import sys
 
+import subprocess
+
 # Add parent directory to path if running directly
 if __name__ == "__main__":
     parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,6 +38,84 @@ def print_version(ctx, param, value):
         return
     click.echo("topalias utility version: {}".format(__version__))
     click.echo("Update command:\npip3 install -U --user topalias")
+    ctx.exit()
+
+
+def update_version(ctx, param, value):
+    """Upgrade current program version and check available online"""
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo("topalias --update")
+    click.echo("pip3 install -U --upgrade topalias\npipx install --force topalias\npoetry install topalias")
+    click.echo("python3.10 -m pip install -U --upgrade topalias\npython3.13 -m pip install -U --upgrade topalias")
+    click.echo("python3.14 -m pip install -U --upgrade topalias\npython3.15 -m pip install -U --upgrade topalias")
+    ctx.exit()
+
+
+def upgrade_version(ctx, param, value):
+    """Update current program version and check available online"""
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo("topalias --upgrade")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['pip3', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['pipx', 'install', '--force', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['poetry', 'install', 'topalias', '&&', 'poetry', 'upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['python3.10', '-m', 'pip', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['python3.13', '-m', 'pip', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['python3.14', '-m', 'pip', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['python3.15', '-m', 'pip', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    # click.echo("")
+    # click.echo("")
+    # click.echo("python3.14 -m pip install -U --upgrade topalias\npython3.15 -m pip install -U --upgrade topalias")
     ctx.exit()
 
 
@@ -102,12 +182,30 @@ def print_version(ctx, param, value):
     help="Print current program version and check latest on pypi.org.",  # pylint: disable=too-many-arguments
 )
 @click.option(
+    "--update",
+    "--u",
+    is_flag=True,
+    callback=update_version,
+    expose_value=False,
+    is_eager=True,
+    help="Update topalias OpenSource software from pypi.org",  # pylint: disable=too-many-arguments
+)
+@click.option(
+    "--upgrade",
+    "--U",
+    is_flag=True,
+    callback=upgrade_version,
+    expose_value=False,
+    is_eager=True,
+    help="Upgrade topalias OpenSource software from pypi.org",  # pylint: disable=too-many-arguments
+)
+@click.option(
     "--debug/--no-debug",
     default=False,
     help="Enable debug strings in output.",
 )
 @click.pass_context
-def cli(ctx, debug, acr, path, count, filtering, zsh, bash_version) -> int:  # noqa: WPS211,WPS216
+def cli(ctx, debug, acr, path, count, filtering, zsh, fish, bash_version) -> int:  # noqa: WPS211,WPS216
     """See documentation and usage examples: https://csredrat.github.io/topalias"""
 
     ctx.ensure_object(dict)
