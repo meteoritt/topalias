@@ -220,6 +220,13 @@ def print_stat(raw_lines, filtered) -> None:
             len(sensitive_commands),
             password_stats_line
         ))
+        # Output password commands in statistics
+        print("\n⚠️  Sensitive commands from history:")
+        for masked_cmd, pattern_type in sensitive_commands[:10]:  # Limit to 10 for display
+            print("  [{}] {}".format(pattern_type, masked_cmd))
+        if len(sensitive_commands) > 10:
+            print("  ... and {} more sensitive commands found".format(len(sensitive_commands) - 10))
+        print("  Hint: Use ' ' (space) before commands to prevent saving to history")
 
 
 HISTTIMEFORMAT_FIRST = "Hint: add timestamps in history log: "
@@ -493,18 +500,4 @@ def print_history(acronym_length) -> None:
             "{}".format(linux_add_alias),
         )
     print_stat(command_bank, filtered_alias_bank)
-
-    # Check for sensitive data/passwords in history
-    sensitive_commands = grep_password(command_bank)
-    if sensitive_commands:
-        print("\n⚠️  WARNING: Potential sensitive data found in history:")
-        print("=" * 70)
-        for masked_cmd, pattern_type in sensitive_commands[:10]:  # Limit to 10 for display
-            print("  [{}] {}".format(pattern_type, masked_cmd))
-        if len(sensitive_commands) > 10:
-            print("  ... and {} more sensitive commands found".format(len(sensitive_commands) - 10))
-        print("=" * 70)
-        print("Hint: Use ' ' (space) before commands to prevent saving to history")
-        print("Hint: Consider cleaning your history: history -c")
-
     print_hint()
