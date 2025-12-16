@@ -204,6 +204,23 @@ def print_stat(raw_lines, filtered) -> None:
         if top_aliases:
             print(" most used aliases: {}".format(top_aliases_text_line))
 
+    # Add password/sensitive data statistics
+    sensitive_commands = grep_password(raw_lines)
+    if sensitive_commands:
+        # Group by pattern type for statistics
+        pattern_counts = {}
+        for _, pattern_type in sensitive_commands:
+            pattern_counts[pattern_type] = pattern_counts.get(pattern_type, 0) + 1
+
+        password_stats_line = ""
+        for pattern_type, count in sorted(pattern_counts.items(), key=lambda x: x[1], reverse=True):
+            password_stats_line += "{}: {}, ".format(pattern_type, count)
+        password_stats_line = password_stats_line[:-2]
+        print(" sensitive data found: {} (types: {})".format(
+            len(sensitive_commands),
+            password_stats_line
+        ))
+
 
 HISTTIMEFORMAT_FIRST = "Hint: add timestamps in history log: "
 HISTTIMEFORMAT_SECOND = (
