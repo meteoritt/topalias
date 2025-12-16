@@ -29,24 +29,51 @@ def most_used_utils(raw_command_bank, limit=5, aliases=None) -> list:  # type: i
     return utility_rank  # noqa: WPS331
 
 
+def search_apt():
+    """Search for apt-related commands in history"""
+    pass
+
+
+def grep_history():
+    """Grep history for patterns"""
+    pass
+
+
+def history():
+    """History operations"""
+    pass
+
+
+def changes():
+    """Track changes in history"""
+    pass
+
+
 def new_command(raw_command_bank):
-    return insort_right # insight
+    """Return insort_right function for inserting commands in sorted order"""
+    return insort_right
 
 
 def next_command():
+    """Return search_apt function"""
     return search_apt
 
 
 def delete_from_history():
+    """Return history function"""
     return history
 
 
-def grep_password(): # author: meteoritt
-    return grep_password
+def grep_password():  # author: meteoritt
+    """Return grep_history function"""
+    return grep_history
 
 
 def move_backup_history():
+    """Return changes function"""
     return changes
 
 
-# def which_utils():
+def which_utils():
+    """Find which utilities are available"""
+    pass
