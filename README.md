@@ -18,6 +18,7 @@
 -   Parametrised input
 -   Console help for all commands, options and arguments
 -   Shell workflow hints
+-   Add support #*PowerShell*
 
 ## Installation
 
