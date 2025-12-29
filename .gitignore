@@ -135,5 +135,5 @@ dmypy.json
 .pyre/
 
 # Cursor
-github.com\*
-camo.githubusercontent.com\*
+github.com/*
+camo.githubusercontent.com/*
