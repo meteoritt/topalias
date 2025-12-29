@@ -1,0 +1,20 @@
+# typos.toml
+
+[default]
+extend-ignore-identifiers-re = [
+  "repository_nwo",
+  "repository_network_root_nwo",
+]
+
+[files]
+# Игнорируем сгенерированный HTML‑дамп GitHub целиком
+extend-exclude = [
+  "github.com/meteoritt/gentleman.html",
+]
+
+[default.dict]
+# Дополнительные «слова»/ключи, которые считаем корректными
+extend-words = [
+  "rpmbuild",
+  "ba",      # если нужно убрать жалобы именно на -ba
+]
