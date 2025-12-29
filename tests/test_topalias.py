@@ -25,7 +25,7 @@ def fixture_response():
 def test_content(response):
     """Sample pytest test function with the pytest fixture as an argument."""
 
-    assert "GitHub" in BeautifulSoup(response.content, features="html5lib").title.string
+    assert "GitHub" in BeautifulSoup(response.content, features="html.parser").title.string
 
 
 @pytest.mark.parametrize(
