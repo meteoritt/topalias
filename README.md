@@ -1,7 +1,7 @@
 # topalias
 
-[![Test Status](https://github.com/meteoritt/topalias/workflows/Test/badge.svg?branch=master)](https://github.com/meteoritt/topalias/actions?query=workflow%3ATest)
-[![Coverage](https://coveralls.io/repos/hub/CSRedRat/topalias/badge.svg?branch=master)](https://coveralls.io/github/meteoritt/topalias?branch=master)
+[![Test Status](https://img.shields.io/badge/tests-fix%20no%20status-lightgrey)](https://github.com/meteoritt/topalias/actions?query=workflow%3ATest)
+[![Coverage](https://img.shields.io/badge/coverage-unknown-lightgrey)](https://coveralls.io/github/meteoritt/topalias?branch=master)
 [![GitLab pipeline](https://gitlab.com/CSRedRat/topalias/badges/master/pipeline.svg)](https://gitlab.com/CSRedRat/topalias/-/pipelines)
 [![Python Version](https://img.shields.io/pypi/pyversions/topalias.svg)](https://pypi.org/project/topalias/)
 [![Downloads](https://static.pepy.tech/personalized-badge/topalias?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/topalias)
@@ -18,7 +18,7 @@
 -   Parametrised input
 -   Console help for all commands, options and arguments
 -   Shell workflow hints
--   Add support #*PowerShell*
+-   Add support #_PowerShell_
 
 ## Installation
 
@@ -148,5 +148,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 _GitLab repository mirror with CI/CD: [https://gitlab.com/CSRedRat/topalias](https://gitlab.com/CSRedRat/topalias)_
-
-
