@@ -1,7 +1,7 @@
 # topalias
 
-[![Test Status](https://github.com/CSRedRat/topalias/workflows/Test/badge.svg?branch=master)](https://github.com/CSRedRat/topalias/actions?query=workflow%3ATest)
-[![Coverage](https://coveralls.io/repos/github/CSRedRat/topalias/badge.svg?branch=master)](https://coveralls.io/github/CSRedRat/topalias?branch=master)
+[![Test Status](https://github.com/meteoritt/topalias/workflows/Test/badge.svg?branch=master)](https://github.com/meteoritt/topalias/actions?query=workflow%3ATest)
+[![Coverage](https://coveralls.io/repos/hub/CSRedRat/topalias/badge.svg?branch=master)](https://coveralls.io/github/meteoritt/topalias?branch=master)
 [![GitLab pipeline](https://gitlab.com/CSRedRat/topalias/badges/master/pipeline.svg)](https://gitlab.com/CSRedRat/topalias/-/pipelines)
 [![Python Version](https://img.shields.io/pypi/pyversions/topalias.svg)](https://pypi.org/project/topalias/)
 [![Downloads](https://static.pepy.tech/personalized-badge/topalias?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/topalias)
