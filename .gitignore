@@ -133,3 +133,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Cursor
+github.com\*
+camo.githubusercontent.com\*
