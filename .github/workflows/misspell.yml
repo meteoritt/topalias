@@ -20,7 +20,7 @@ jobs:
               with:
                   format: json
                   exit-code: 0
-
+                  config: ./typos.toml
             - uses: peter-evans/create-pull-request@v6
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}

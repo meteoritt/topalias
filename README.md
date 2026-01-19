@@ -1,6 +1,6 @@
 # topalias
 
-[![Test Status](https://github.com/CSRedRat/topalias/workflows/Test/badge.svg?branch=master)](https://github.com/CSRedRat/topalias/actions?query=workflow%3ATest)
+[![Test](https://github.com/meteoritt/topalias/actions/workflows/test.yml/badge.svg)](https://github.com/meteoritt/topalias/actions/workflows/test.yml)
 [![Coverage](https://coveralls.io/repos/github/CSRedRat/topalias/badge.svg?branch=master)](https://coveralls.io/github/CSRedRat/topalias?branch=master)
 [![GitLab pipeline](https://gitlab.com/CSRedRat/topalias/badges/master/pipeline.svg)](https://gitlab.com/CSRedRat/topalias/-/pipelines)
 [![Python Version](https://img.shields.io/pypi/pyversions/topalias.svg)](https://pypi.org/project/topalias/)
@@ -18,6 +18,7 @@
 -   Parametrised input
 -   Console help for all commands, options and arguments
 -   Shell workflow hints
+-   Add support #_PowerShell_
 
 ## Installation
 
@@ -147,5 +148,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 _GitLab repository mirror with CI/CD: [https://gitlab.com/CSRedRat/topalias](https://gitlab.com/CSRedRat/topalias)_
-
-

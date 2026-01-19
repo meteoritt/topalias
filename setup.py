@@ -55,6 +55,6 @@ setup(
     name="topalias",
     packages=find_packages(include=["topalias", "topalias.*"]),
     url="https://github.com/CSRedRat/topalias",
-    version="4.3.1",
+    version="4.4.0",
     zip_safe=False,
 )

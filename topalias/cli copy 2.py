@@ -5,6 +5,8 @@
 import os
 import sys
 
+import subprocess
+
 # Add parent directory to path if running directly
 if __name__ == "__main__":
     parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -34,6 +36,36 @@ def print_version(ctx, param, value):
         return
     click.echo("topalias utility version: {}".format(__version__))
     click.echo("Update command:\npip3 install -U --user topalias")
+    ctx.exit()
+
+
+def update_version(ctx, param, value):
+    """Upgrade current program version and check available online"""
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo("topalias --update")
+    click.echo("pip3 install -U --upgrade topalias\npipx install --force topalias\npoetry install topalias")
+    click.echo("python3.10 -m pip install -U --upgrade topalias\npython3.13 -m pip install -U --upgrade topalias")
+    click.echo("python3.14 -m pip install -U --upgrade topalias\npython3.15 -m pip install -U --upgrade topalias")
+    ctx.exit()
+
+
+def upgrade_version(ctx, param, value):
+    """Update current program version and check available online"""
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo("topalias --upgrade")
+    try:
+        # Run the command and capture the output
+        result = subprocess.run(['pip3', 'install', '-U', '--upgrade', 'topalias'], capture_output=True, text=True, check=True)
+        click.echo(result.stdout)
+    except subprocess.CalledProcessError as e:
+        click.echo(f"An error occurred: {e.stderr}")
+    except FileNotFoundError:
+        click.echo("The 'ls' command was not found. This example works on Unix/Linux/macOS systems.")
+    # click.echo("\npipx install --force topalias\npoetry install topalias")
+    # click.echo("python3.10 -m pip install -U --upgrade topalias\npython3.13 -m pip install -U --upgrade topalias")
+    # click.echo("python3.14 -m pip install -U --upgrade topalias\npython3.15 -m pip install -U --upgrade topalias")
     ctx.exit()
 
 
