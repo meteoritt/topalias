@@ -1,5 +1,11 @@
 # topalias
 
+# README.md
+
+**First read wthis**: [https://github.com/ruopsdev/tibo-telegram-bot](https://github.com/ruopsdev/tibo-telegram-bot)
+
+# Topalias
+
 [![Test](https://github.com/meteoritt/topalias/actions/workflows/test.yml/badge.svg)](https://github.com/meteoritt/topalias/actions/workflows/test.yml)
 [![Coverage](https://coveralls.io/repos/github/meteoritt/topalias/badge.svg?branch=master)](https://coveralls.io/github/meteoritt/topalias?branch=master)
 [![GitLab pipeline](https://gitlab.com/CSRedRat/topalias/badges/master/pipeline.svg)](https://gitlab.com/CSRedRat/topalias/-/pipelines)
