@@ -2,7 +2,7 @@
 
 # README.md
 
-**First read wthis**: [https://github.com/ruopsdev/tibo-telegram-bot](https://github.com/ruopsdev/tibo-telegram-bot)
+**First read this**: [https://github.com/ruopsdev/tibo-telegram-bot](https://github.com/ruopsdev/tibo-telegram-bot)
 
 # Topalias
 
